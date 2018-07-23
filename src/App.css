@@ -1,4 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+header {
+  background: #0C002B;
+  color: #fff;
+  overflow: auto;
+  padding: 2rem 1rem; }
+  header .logo {
+    float: left;
+    font-size: 1.5rem; }
+  header nav {
+    float: right; }
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.7rem 1rem;
+      text-transform: capitalize;
+      font-weight: 300; }
+      header nav a:hover {
+        color: #FF718E; }
+      header nav a.register-btn {
+        background: #FF718E;
+        padding: 0.7rem 0.9rem;
+        text-align: center;
+        border-radius: 0.2rem; }
+
 body {
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase; }
+  font-family: 'Roboto', sans-serif; }
