@@ -1,35 +1,9 @@
-header {
-    background: #0C002B;
-    color: #fff;
-    overflow: auto;
-    padding: 2rem 1rem;
+#listings {
+    // display: grid;
+    // padding: 1rem;
+    // grid-template-columns: repeat(6, 1fr);
+    // grid-row-gap: 1rem;
+    // float: right;
+    widows: 70%;
 
-    .logo {
-        // display: inline-block;
-        float: left;
-        font-size: 1.5rem;
-    }
-
-    nav {
-        // display: inline-block;
-        float: right;
-        a {
-            color: #fff;
-            text-decoration: none;
-            padding: 0.7rem 1rem;
-            text-transform: capitalize;
-            font-weight: 300;
-
-            &:hover {
-                color: #FF718E;
-
-            }
-            &.register-btn {
-                background: $pink;
-                padding: 0.7rem 0.9rem;
-                text-align: center;
-                border-radius: 0.2rem;
-            }
-        }
-    }
 }

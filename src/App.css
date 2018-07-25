@@ -23,9 +23,17 @@ header {
         text-align: center;
         border-radius: 0.2rem; }
 
+#listings {
+  widows: 70%; }
+
+#content-area {
+  display: inline-block;
+  width: 100%; }
+
 #filter {
   background: #FAF7F5;
-  width: 30%; }
+  width: 30%;
+  float: left; }
   #filter .inside {
     padding: 1rem;
     max-width: 300px; }

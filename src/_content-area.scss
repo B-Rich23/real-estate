@@ -1,6 +1,13 @@
+#content-area {
+    display: inline-block;
+    width: 100%;
+}
+
+
 #filter {
     background: $gray;
     width: 30%;
+    float: left;
 
     .inside {
         padding: 1rem;
@@ -55,3 +62,4 @@
         }
     }
 }
+
