@@ -1,13 +1,14 @@
-#content-area {
-    display: inline-block;
-    width: 100%;
-}
+// #content-area {
+//     display: inline-block;
+//     width: 100%;
+// }
 
 
 #filter {
     background: $gray;
     width: 30%;
     float: left;
+    display: inline-block;
 
     .inside {
         padding: 1rem;

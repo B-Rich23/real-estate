@@ -24,16 +24,46 @@ header {
         border-radius: 0.2rem; }
 
 #listings {
-  widows: 70%; }
-
-#content-area {
+  float: left;
+  width: 67%;
   display: inline-block;
-  width: 100%; }
+  background: #FFFEFF;
+  margin-top: 1.4rem;
+  margin-left: 15px; }
+  #listings .search-area input[type="text"] {
+    width: 70%;
+    background: transparent;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 2px solid #d1cbcd;
+    margin-bottom: 20px;
+    color: #d1cbcd; }
+  #listings .sortby-area {
+    margin-bottom: 20px;
+    width: 100%; }
+    #listings .sortby-area .sort-results {
+      font-size: 0.8rem;
+      color: #d1cbcd;
+      display: inline-block; }
+    #listings .sortby-area .sort-options {
+      float: right;
+      display: inline-block; }
+      #listings .sortby-area .sort-options select {
+        font-size: 0.9rem;
+        font-weight: 300;
+        border: 1px solid #d1cbcd;
+        background: transparent; }
+    #listings .sortby-area .sort-view {
+      display: inline-block; }
+      #listings .sortby-area .sort-view .fas {
+        font-size: 1.2rem;
+        margin-left: 10px; }
 
 #filter {
   background: #FAF7F5;
   width: 30%;
-  float: left; }
+  float: left;
+  display: inline-block; }
   #filter .inside {
     padding: 1rem;
     max-width: 300px; }
