@@ -8,10 +8,11 @@
 
 
 #filter {
-    background: $gray;
+    background: $teal;
     width: 30%;
     float: left;
     display: inline-block;
+    color: $darkblue;
 
     .inside {
         padding: 1rem;
@@ -30,10 +31,11 @@
         padding: 1rem;
         font-size: 14px;
         font-weight: 500;
-        color: 1b1b1b;
+        color: $darkblue;
         display: block;
         margin-bottom: 20px;
         width: 100%;
+        border: 2px solid #fff;
     }
 
     .filters {
@@ -50,6 +52,7 @@
             border-radius: 0.2rem;
             font-size: 0.7rem;
             padding: 0.4rem;
+            color: $darkblue;
         }
 
         &.extras {

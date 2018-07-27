@@ -27,30 +27,31 @@ class Listings extends Component {
                     <section className="listings-results">
                         <div className="listing">
                             <div className="listing-img">
-                                <span className="price">$Price</span>
-                                <span className="address">Address</span>
+                                {/* <span className="price">$Price</span> */}
+                                <span className="address">23 Dexhi Hills</span>
                                 <div className="details">
                                     <div className="user-img">
 
                                     </div>
-                                    <div className="user-details">
+                                    {/* <div className="user-details">
                                         <span className="user-name">Nina Smith</span>
                                         <span className="post-date">07-24-18</span>
-                                    </div>
+                                    </div> */}
                                     <div className="listing-details">
-                                        <div className="floor-space">
-                                        <i class="fas fa-ruler"><span>1000</span> ft&sup2;</i>
+                                        <div className="floor-space subdetail"> <i class="fas fa-ruler"> <span>1000</span> ft&sup2;</i>
                                         </div>
-                                        <div className="bed-bath">
-                                            <i class="fas fa-bed"><span>3</span> bed</i>
-                                            <i class="fas fa-bath"><span>1</span> bath</i>
+                                        <div className="bed subdetail">
+                                            <i class="fas fa-bed"> <span>3</span> bed</i>
+                                        </div>
+                                        <div className="bath subdetail">
+                                            <i class="fas fa-bath"> <span>1</span> bath</i>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="bottom-info">
-                                <span>$400,000</span>
-                                <i className="fas fa-map-marker-alt"></i><span>Ridgewood, NY</span>
+                                <span>$400,000 </span>
+                                <i className="fas fa-map-marker-alt"></i> <span>Ridgewood, NY</span>
                             </div>
                         </div>
                     </section>

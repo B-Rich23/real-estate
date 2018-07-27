@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 header {
-  background: #0C002B;
+  background: #686de0;
   color: #fff;
   overflow: auto;
   padding: 2rem 1rem; }
@@ -16,9 +16,9 @@ header {
       text-transform: capitalize;
       font-weight: 300; }
       header nav a:hover {
-        color: #FF718E; }
+        color: #d1cbcd; }
       header nav a.register-btn {
-        background: #FF718E;
+        background: #7ed6df;
         padding: 0.7rem 0.9rem;
         text-align: center;
         border-radius: 0.2rem; }
@@ -37,7 +37,7 @@ header {
       border: none;
       border-bottom: 2px solid #d1cbcd;
       margin-bottom: 20px;
-      color: #d1cbcd; }
+      color: #30336b; }
     #listings .listings-inside .sortby-area {
       margin-bottom: 20px;
       width: 100%; }
@@ -49,20 +49,26 @@ header {
         float: right;
         display: inline-block; }
         #listings .listings-inside .sortby-area .sort-options select {
+          color: #30336b;
           font-size: 0.9rem;
-          font-weight: 300;
-          border: 1px solid #d1cbcd;
+          font-weight: 500;
+          border: 2px solid #7ed6df;
           background: transparent; }
       #listings .listings-inside .sortby-area .sort-view {
         display: inline-block; }
         #listings .listings-inside .sortby-area .sort-view .fas {
           font-size: 1.2rem;
-          margin-left: 10px; }
+          margin-left: 10px;
+          color: #686de0; }
     #listings .listings-inside .listings-results {
+      display: grid;
+      padding: 1rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-row-gap: 1rem;
+      grid-column-gap: 0.7rem;
       margin-bottom: 60px; }
       #listings .listings-inside .listings-results .listing {
         background: #fff;
-        width: 30%;
         -webkit-box-shadow: 0px 9px 54px -4px #e0e0e0;
         -moz-box-shadow: 0px 9px 54px -4px #e0e0e0;
         box-shadow: 0px 9px 54px -4px #e0e0e0;
@@ -73,10 +79,44 @@ header {
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
-          min-height: 175px;
+          min-height: 150px;
           border-top-left-radius: 0.2rem;
           border-top-right-radius: 0.2rem;
-          color: #fff; }
+          color: #fff;
+          padding: 15px;
+          position: relative; }
+          #listings .listings-inside .listings-results .listing .listing-img:hover .details {
+            opacity: 1; }
+          #listings .listings-inside .listings-results .listing .listing-img:hover .address {
+            opacity: 0; }
+          #listings .listings-inside .listings-results .listing .listing-img .address {
+            opacity: 1;
+            transition: all 0.2s ease-in-out;
+            position: absolute;
+            bottom: 10px; }
+      #listings .listings-inside .listings-results .details {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+        border-top-left-radius: 0.2rem;
+        border-top-right-radius: 0.2rem;
+        padding: 15px;
+        background: #686de0;
+        background: linear-gradient(119deg, rgba(104, 109, 224, 0.8) 35%, rgba(126, 214, 223, 0.8) 100%); }
+      #listings .listings-inside .listings-results .listing-details {
+        text-align: center;
+        padding-top: 2.2rem; }
+        #listings .listings-inside .listings-results .listing-details .subdetail {
+          margin-bottom: 0.5rem; }
+          #listings .listings-inside .listings-results .listing-details .subdetail i {
+            letter-spacing: 0.1rem; }
+            #listings .listings-inside .listings-results .listing-details .subdetail i span {
+              margin-left: 0.3rem;
+              letter-spacing: 0.1rem; }
 
 #content-area {
   width: 100%;
@@ -84,10 +124,11 @@ header {
   height: 300px; }
 
 #filter {
-  background: #FAF7F5;
+  background: #7ed6df;
   width: 30%;
   float: left;
-  display: inline-block; }
+  display: inline-block;
+  color: #30336b; }
   #filter .inside {
     padding: 1rem;
     max-width: 300px; }
@@ -101,10 +142,11 @@ header {
     padding: 1rem;
     font-size: 14px;
     font-weight: 500;
-    color: 1b1b1b;
+    color: #30336b;
     display: block;
     margin-bottom: 20px;
-    width: 100%; }
+    width: 100%;
+    border: 2px solid #fff; }
   #filter .filters .title {
     font-size: 0.9rem;
     display: block;
@@ -116,7 +158,8 @@ header {
     margin-bottom: 20px;
     border-radius: 0.2rem;
     font-size: 0.7rem;
-    padding: 0.4rem; }
+    padding: 0.4rem;
+    color: #30336b; }
   #filter .filters.extras label {
     display: block;
     width: 100%;
