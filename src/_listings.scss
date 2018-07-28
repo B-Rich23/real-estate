@@ -118,7 +118,7 @@
                     }
 
                 }
-            }
+
 
                 .details {
                     position: absolute;
@@ -155,7 +155,44 @@
                     }
                 }
 
+            .bottom-info {
+                padding: 10px;
+                color: $darkblue;
+
+                .price {
+                    font-size: 0.9rem;
+                    display: block;
+                    margin-bottom: 0.2rem;
+                    letter-spacing: 0.1rem;
+                }
+
+
+                .location {
+                    font-size: 0.9rem;
+                    display: block;
+                    letter-spacing: 0.1rem;
+                    color: $darkgray;;
+                }
+            }
+
         }
 
+#pagination {
+    display: inline-block;
+    color: $darkblue;
+
+    ul {
+
+        .pages {
+            display: inline-block;
+            text-decoration: none;
+        }
     }
+
+}
+
+
+
+    }
+}
 }

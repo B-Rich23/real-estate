@@ -1,0 +1,47 @@
+#listings {
+
+    #pagination {
+        color: $teal;
+        margin: 0 auto;
+
+
+
+        .pages {
+            text-align: center;
+            background: #fff;
+            width: 50%;
+            -webkit-box-shadow: 0px 9px 54px -4px rgba(224,224,224,1);
+            -moz-box-shadow: 0px 9px 54px -4px rgba(224,224,224,1);
+            box-shadow: 0px 9px 54px -4px rgba(224,224,224,1);
+            border-radius: 0.2rem;
+            margin: 0 auto;
+            padding-left: 0;
+
+
+
+                li {
+                    display: inline-block;
+                    padding: 1rem;
+                    // border: 2px solid $teal;
+                    // margin-right: 10px;
+                    // border-radius: 0.2rem;
+
+                    &.active {
+                        color: $purple;
+                        background: $teal;
+                        border-radius: 0.2rem;
+
+                    }
+                    &:hover {
+                        color: $purple;
+                        background: $teal;
+                        border-radius: 0.2rem;
+                        cursor: pointer;
+                    }
+
+                }
+
+            }
+        }
+
+    }

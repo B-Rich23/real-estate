@@ -50,14 +50,15 @@ class Listings extends Component {
                                 </div>
                             </div>
                             <div className="bottom-info">
-                                <span>$400,000 </span>
-                                <i className="fas fa-map-marker-alt"></i> <span>Ridgewood, NY</span>
+                                <span className="price">$400,000 </span>
+                                <span className="location"><i className="fas fa-map-marker-alt"></i> Ridgewood, NY</span>
                             </div>
                         </div>
                     </section>
-                    <section className="pagination">
-                        <ul className="paginations">
-                            <li>Prev</li>
+                </div>
+                <section id="pagination">
+                        <ul className="pages">
+                            <li className="active">Prev</li>
                             <li>1</li>
                             <li>2</li>
                             <li>3</li>
@@ -66,7 +67,7 @@ class Listings extends Component {
                             <li>Next</li>
                         </ul>
                     </section>
-                </div>
+
             </section>
         );
     }

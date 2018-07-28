@@ -94,29 +94,48 @@ header {
             transition: all 0.2s ease-in-out;
             position: absolute;
             bottom: 10px; }
-      #listings .listings-inside .listings-results .details {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        opacity: 0;
-        transition: all 0.2s ease-in-out;
-        border-top-left-radius: 0.2rem;
-        border-top-right-radius: 0.2rem;
-        padding: 15px;
-        background: #686de0;
-        background: linear-gradient(119deg, rgba(104, 109, 224, 0.8) 35%, rgba(126, 214, 223, 0.8) 100%); }
-      #listings .listings-inside .listings-results .listing-details {
-        text-align: center;
-        padding-top: 2.2rem; }
-        #listings .listings-inside .listings-results .listing-details .subdetail {
-          margin-bottom: 0.5rem; }
-          #listings .listings-inside .listings-results .listing-details .subdetail i {
-            letter-spacing: 0.1rem; }
-            #listings .listings-inside .listings-results .listing-details .subdetail i span {
-              margin-left: 0.3rem;
+        #listings .listings-inside .listings-results .listing .details {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          opacity: 0;
+          transition: all 0.2s ease-in-out;
+          border-top-left-radius: 0.2rem;
+          border-top-right-radius: 0.2rem;
+          padding: 15px;
+          background: #686de0;
+          background: linear-gradient(119deg, rgba(104, 109, 224, 0.8) 35%, rgba(126, 214, 223, 0.8) 100%); }
+        #listings .listings-inside .listings-results .listing .listing-details {
+          text-align: center;
+          padding-top: 2.2rem; }
+          #listings .listings-inside .listings-results .listing .listing-details .subdetail {
+            margin-bottom: 0.5rem; }
+            #listings .listings-inside .listings-results .listing .listing-details .subdetail i {
               letter-spacing: 0.1rem; }
+              #listings .listings-inside .listings-results .listing .listing-details .subdetail i span {
+                margin-left: 0.3rem;
+                letter-spacing: 0.1rem; }
+        #listings .listings-inside .listings-results .listing .bottom-info {
+          padding: 10px;
+          color: #30336b; }
+          #listings .listings-inside .listings-results .listing .bottom-info .price {
+            font-size: 0.9rem;
+            display: block;
+            margin-bottom: 0.2rem;
+            letter-spacing: 0.1rem; }
+          #listings .listings-inside .listings-results .listing .bottom-info .location {
+            font-size: 0.9rem;
+            display: block;
+            letter-spacing: 0.1rem;
+            color: #b3b3b3; }
+      #listings .listings-inside .listings-results #pagination {
+        display: inline-block;
+        color: #30336b; }
+        #listings .listings-inside .listings-results #pagination ul .pages {
+          display: inline-block;
+          text-decoration: none; }
 
 #content-area {
   width: 100%;
@@ -166,6 +185,32 @@ header {
     padding: 10px 0; }
     #filter .filters.extras label input[type="checkbox"] {
       float: right; }
+
+#listings #pagination {
+  color: #7ed6df;
+  margin: 0 auto; }
+  #listings #pagination .pages {
+    text-align: center;
+    background: #fff;
+    width: 50%;
+    -webkit-box-shadow: 0px 9px 54px -4px #e0e0e0;
+    -moz-box-shadow: 0px 9px 54px -4px #e0e0e0;
+    box-shadow: 0px 9px 54px -4px #e0e0e0;
+    border-radius: 0.2rem;
+    margin: 0 auto;
+    padding-left: 0; }
+    #listings #pagination .pages li {
+      display: inline-block;
+      padding: 1rem; }
+      #listings #pagination .pages li.active {
+        color: #686de0;
+        background: #7ed6df;
+        border-radius: 0.2rem; }
+      #listings #pagination .pages li:hover {
+        color: #686de0;
+        background: #7ed6df;
+        border-radius: 0.2rem;
+        cursor: pointer; }
 
 * body, html {
   font-family: 'Roboto', sans-serif;
