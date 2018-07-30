@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
+import listings from '../dataListings';
 
 
 
 class Listings extends Component {
     state = {
-        listings: [],
+        listings: listings,
      }
 
-     async componentDidMount() {
-        try {
-          const res = await fetch('http://api.zoopla.co.uk/api/v1/property_listings.json?area=Oxford&api_key=kx4kkpw7w6ryme4yx42zgmvq', {'mode': 'no-cors'});
 
-          const listings = await res;
-          console.log(listings);
-          this.setState({
-            listings: listings.listing,
-          });
-        } catch (e) {
-          console.log(e);
-        }
-      }
+    //  async componentDidMount() {
+    //     try {
+    //       const res = await fetch('https://api.zoopla.co.uk/api/v1/property_listings.json?area=Oxford&api_key=kx4kkpw7w6ryme4yx42zgmvq');
+
+    //       const listings = await res;
+    //       console.log(listings);
+    //       this.setState({
+    //         listings: listings.listing,
+    //       });
+    //     } catch (e) {
+    //       console.log(e);
+    //     }
+    //   }
 
     render() {
         return (
@@ -42,9 +44,12 @@ class Listings extends Component {
                         </div>
                     </section>
                     <section className="listings-results">
-                        <div className="listing">
+
+                        {this.state.listings.map(listing => {
+                            console.log(listing.price)
+                            return                         <div className="listing">
                             <div className="listing-img">
-                                {/* <span className="price">$Price</span> */}
+                                <img src={listing.image_354_255_url} alt="missing"/>
                                 <span className="address">23 Dexhi Hills</span>
                                 <div className="details">
                                     <div className="user-img">
@@ -67,10 +72,12 @@ class Listings extends Component {
                                 </div>
                             </div>
                             <div className="bottom-info">
-                                <span className="price">$400,000 </span>
+                                <span className="price">${listing.price} </span>
                                 <span className="location"><i className="fas fa-map-marker-alt"></i> Ridgewood, NY</span>
                             </div>
                         </div>
+
+                        })}
                     </section>
                 </div>
                 <section id="pagination">
