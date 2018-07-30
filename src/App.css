@@ -130,12 +130,6 @@ header {
             display: block;
             letter-spacing: 0.1rem;
             color: #b3b3b3; }
-      #listings .listings-inside .listings-results #pagination {
-        display: inline-block;
-        color: #30336b; }
-        #listings .listings-inside .listings-results #pagination ul .pages {
-          display: inline-block;
-          text-decoration: none; }
 
 #content-area {
   width: 100%;

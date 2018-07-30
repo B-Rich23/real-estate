@@ -3,7 +3,24 @@ import React, { Component } from 'react';
 
 
 class Listings extends Component {
-    state = {  }
+    state = {
+        listings: [],
+     }
+
+     async componentDidMount() {
+        try {
+          const res = await fetch('http://api.zoopla.co.uk/api/v1/property_listings.json?area=Oxford&api_key=kx4kkpw7w6ryme4yx42zgmvq', {'mode': 'no-cors'});
+
+          const listings = await res;
+          console.log(listings);
+          this.setState({
+            listings: listings.listing,
+          });
+        } catch (e) {
+          console.log(e);
+        }
+      }
+
     render() {
         return (
             <section id="listings">
