@@ -1,29 +1,12 @@
 import React, { Component } from 'react';
-import listings from '../dataListings';
 
 
 
 class Listings extends Component {
-    state = {
-        listings: listings,
-     }
-
-
-    //  async componentDidMount() {
-    //     try {
-    //       const res = await fetch('https://api.zoopla.co.uk/api/v1/property_listings.json?area=Oxford&api_key=kx4kkpw7w6ryme4yx42zgmvq');
-
-    //       const listings = await res;
-    //       console.log(listings);
-    //       this.setState({
-    //         listings: listings.listing,
-    //       });
-    //     } catch (e) {
-    //       console.log(e);
-    //     }
-    //   }
 
     render() {
+        const { listings } = this.props;
+
         return (
             <section id="listings">
                 <div className="listings-inside">
@@ -45,12 +28,12 @@ class Listings extends Component {
                     </section>
                     <section className="listings-results">
 
-                        {this.state.listings.map(listing => {
+                        {listings.map(listing => {
                             console.log(listing.price)
-                            return                         <div className="listing">
+                            return                         <div className="listing" key={listing.listing_id}>
                             <div className="listing-img">
                                 <img src={listing.image_354_255_url} alt="missing"/>
-                                <span className="address">23 Dexhi Hills</span>
+                                <span className="address">{listing.agent_address}</span>
                                 <div className="details">
                                     <div className="user-img">
 
@@ -60,20 +43,20 @@ class Listings extends Component {
                                         <span className="post-date">07-24-18</span>
                                     </div> */}
                                     <div className="listing-details">
-                                        <div className="floor-space subdetail"> <i class="fas fa-ruler"> <span>1000</span> ft&sup2;</i>
+                                        <div className="floor-space subdetail"> <i className="fas fa-ruler"> <span>{listing.floor_area.max_floor_area.value}</span> ft&sup2;</i>
                                         </div>
                                         <div className="bed subdetail">
-                                            <i class="fas fa-bed"> <span>3</span> bed</i>
+                                            <i className="fas fa-bed"> <span>{listing.num_bedrooms}</span> bed</i>
                                         </div>
                                         <div className="bath subdetail">
-                                            <i class="fas fa-bath"> <span>1</span> bath</i>
+                                            <i class="fas fa-bath"> <span>{listing.num_bathrooms}</span> bath</i>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="bottom-info">
-                                <span className="price">${listing.price} </span>
-                                <span className="location"><i className="fas fa-map-marker-alt"></i> Ridgewood, NY</span>
+                                <span className="price">£{listing.price} </span>
+                                <span className="location"><i className="fas fa-map-marker-alt"></i> {listing.post_town}, {listing.country}</span>
                             </div>
                         </div>
 

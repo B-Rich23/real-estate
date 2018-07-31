@@ -1,9 +1,9 @@
 #content-area {
     // display: inline-block;
-    // overflow: auto;
+    overflow: auto;
     width: 100%;
     background: black;
-    height: 300px;
+    height: 1100px;
 }
 
 
@@ -13,6 +13,8 @@
     float: left;
     display: inline-block;
     color: $darkblue;
+    height: 100%;
+
 
     .inside {
         padding: 1rem;

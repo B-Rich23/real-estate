@@ -2,618 +2,428 @@ const listings = [
 
 
 // {
-        //     country: "England",
-        //     result_count: 1191,
-        //     longitude: -1.210158,
-        //     area_name: "Oxford",
-        //     listing: [
-                {
-                    country_code: "gb",
-                    num_floors: "0",
-                    image_150_113_url: "https://lid.zoocdn.com/150/113/1e7d1dd7b5c8629445487bc84460f2d16bb71048.jpg",
-                    listing_status: "sale",
-                    num_bedrooms: "4",
-                    location_is_approximate: 0,
-                    image_50_38_url: "https://lid.zoocdn.com/50/38/1e7d1dd7b5c8629445487bc84460f2d16bb71048.jpg",
-                    latitude: 51.763226,
-                    furnished_state: null,
-                    agent_address: "256 Banbury Road, Summertown",
-                    category: "Residential",
-                    property_type: "Semi-detached house",
-                    longitude: -1.270388,
-                    floor_area: {
-                        max_floor_area: {
-                            value: "1956",
-                            units: "sq_feet"
-                        },
-                        min_floor_area: {
-                            value: "1956",
-                            units: "sq_feet"
-                        }
-                    },
-                    thumbnail_url: "https://lid.zoocdn.com/80/60/1e7d1dd7b5c8629445487bc84460f2d16bb71048.jpg",
-                    description: "Description  Situated on the west side of Southmoor Road this semi-detached family home enjoys spacious accommodation arranged over four floors with beautiful gardens running down to the Oxford canal. The accommodation comprises; entrance hall, sitting room with a beautiful original open fireplace and a large bay window with sash windows, study with fitted bookshelves and original fireplace and cloakroom. The lower ground floor offers a separate utility room and wonderful open plan living space with sitting, kitchen and dining areas with French doors opening on the patio enjoying views down the garden. There are four double bedrooms and two bathrooms arranged over the first and second floor. The property benefits from high ceilings, original cornicing and a wealth of period charm. To the exterior are elegant railings to the front of the property, a gated side access and bike store and a larger than average west facing rear garden which has an abundance of shrubs and plants leading down to the Oxford Canal, a truly stunning setting.Situation  The property is situated in the Conservation area of Walton Manor, within walking distance of Port Meadow and the day to day shopping facilities of Walton Street including restaurants, bars and a cinema. Slightly further afield are the more comprehensive facilities of Oxford City centre and the new Westgate Shopping Centre, University departments and a range of schools for all ages. There are rail services to London Paddington and Marylebone in approximately one hour from Oxford mainline station and from the coach station at Gloucester Green there are frequent buses to London Victoria, Heathrow, Gatwick and Stansted airports.Viewing arrangements  Strictly by appointment with Penny & Sinclair. Prior to making an appointment to view, Penny & Sinclair strongly recommend that you discuss any particular points which are likely to affect your interest in the property with a member of Penny & Sinclair's staff who has seen the property in order that you do not make a wasted journey.Services  All mains services are connected.Fixtures & fittings  Certain items may be available by separate negotiation with Penny & Sinclair.Tenure & possession  The property is freehold and offers vacant possession upon completion.Council tax  Council Tax Band 'G' amounting to £3,187 for year 2018/19.Tel: local authority  Oxford City CouncilCity ChambersQueen StreetOxford OX1 1ENTelephone important notice  Penny & Sinclair, their clients and any joint agent gives notice to anyone reading these particulars that:I) the particulars do not constitute part of an offer or contract; ii) all descriptions, dimensions, references to the condition and necessary permissions for use and occupation, and other details are given without responsibility and any intending purchasers should not rely on them as statement or representations of fact. Iii) the text, photographs and plans are guidelines only and are not necessarily comprehensive. Any reference to alterations to, or use of, any part of the property does not mean that all necessary planning, building regulations or other consents have been obtained and Penny & Sinclair have not tested any services, equipment or facilities. A buyer or lessee must satisfy themselves by inspection or otherwise. Iv) the descriptions provided therein represent the opinion of the author and whilst given in good faith should not be construed as statements of fact; v) nothing in the particulars shall be deemed a statement that the property is in good condition or otherwise, nor that any services or facilities are in good working order; vi) no person in the employment of Penny & Sinclair has any authority to make or give any representation or warranty whatsoever in relation to this property. Vii) all measurements are approximate.",
-                    post_town: "Oxford",
-                    details_url: "https://www.zoopla.co.uk/for-sale/details/48024737?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
-                    short_description: "This charming four bedroom family home offers spacious accommodation over four floors with a stunning west facing garden leading down to the Oxford canal.",
-                    outcode: "OX2",
-                    property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=48024737&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
-                    image_645_430_url: "https://lid.zoocdn.com/645/430/1e7d1dd7b5c8629445487bc84460f2d16bb71048.jpg",
-                    county: "Oxfordshire",
-                    price: "1650000",
-                    listing_id: "48024737",
-                    image_caption: "",
-                    image_80_60_url: "https://lid.zoocdn.com/80/60/1e7d1dd7b5c8629445487bc84460f2d16bb71048.jpg",
-                    status: "for_sale",
-                    agent_name: "Penny & Sinclair",
-                    num_recepts: "3",
-                    country: "England",
-                    first_published_date: "2018-06-16 09:10:38",
-                    displayable_address: "Southmoor Road, Oxford OX2",
-                    price_modifier: "guide_price",
-                    floor_plan: [
-                        "https://lc.zoocdn.com/5497a61c18c705d6df15a28882c6b933c692bd0d.png"
-                    ],
-                    street_name: "Southmoor Road",
-                    num_bathrooms: "2",
-                    agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(380441).png",
-                    price_change: [
-                        {
-                            direction: "",
-                            date: "2018-06-16 09:05:21",
-                            percent: "0%",
-                            price: "1650000"
-                        }
-                    ],
-                    agent_phone: "01865 680454",
-                    image_354_255_url: "https://lid.zoocdn.com/354/255/1e7d1dd7b5c8629445487bc84460f2d16bb71048.jpg",
-                    image_url: "https://lid.zoocdn.com/354/255/1e7d1dd7b5c8629445487bc84460f2d16bb71048.jpg",
-                    last_published_date: "2018-07-05 09:33:18"
+//     country: "England",
+//     result_count: 1886,
+//     longitude: -1.210158,
+//     area_name: "Oxford",
+//     listing: [
+        {
+            country_code: "gb",
+            num_floors: "0",
+            image_150_113_url: "https://lid.zoocdn.com/150/113/251be2398cc35082c1665a7b16769c0382c583b0.jpg",
+            listing_status: "sale",
+            num_bedrooms: "8",
+            location_is_approximate: 0,
+            image_50_38_url: "https://lid.zoocdn.com/50/38/251be2398cc35082c1665a7b16769c0382c583b0.jpg",
+            latitude: 51.765083,
+            furnished_state: null,
+            agent_address: "256 Banbury Road, Summertown",
+            category: "Residential",
+            property_type: "Detached house",
+            longitude: -1.26275,
+            floor_area: {
+                max_floor_area: {
+                    value: "3888",
+                    units: "sq_feet"
                 },
-                {
-                    country_code: "gb",
-                    num_floors: "0",
-                    image_150_113_url: "https://lid.zoocdn.com/150/113/9e723c912d90f0735c4a2d3584ee702f68b52f04.jpg",
-                    listing_status: "sale",
-                    num_bedrooms: "4",
-                    location_is_approximate: 0,
-                    image_50_38_url: "https://lid.zoocdn.com/50/38/9e723c912d90f0735c4a2d3584ee702f68b52f04.jpg",
-                    latitude: 51.760838,
-                    furnished_state: null,
-                    agent_address: "Holyfield House, 1 Walton Well Road, Oxford",
-                    category: "Residential",
-                    property_type: "End terrace house",
-                    longitude: -1.271238,
-                    thumbnail_url: "https://lid.zoocdn.com/80/60/9e723c912d90f0735c4a2d3584ee702f68b52f04.jpg",
-                    description: "A beautifully appointed family house set in a favoured location just minutes walk of Walton Street amenities in Jericho and nearby 300 acre Port Meadow.The well-proportioned accommodation of approximately 1944 sqft is arranged over four floors. On the ground floor is a spacious entrance hall and cloakroom and a large open-plan kitchen/family room with French doors to the garden. On the first floor are two bedrooms and a living room with gallery looking down into the family room below. On the second floor is a third bedroom, family bathroom and a stunning master bedroom suite which features a mezzanine level accessed from a spiral staircase to the en-suite-bathroom and dressing room. There is off-street parking for two vehicles and an enclosed rear garden.",
-                    post_town: "Oxford",
-                    details_url: "https://www.zoopla.co.uk/for-sale/details/48151235?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
-                    short_description: "<p class=\"top\">  A beautifully appointed family house set in a favoured location just minutes walk of Walton Street amenities in Jericho and nearby 300 acre Port Meadow.  The well-proportioned accommodation of approximately 1944 sqft is arranged over four floors. On the ground floor is a spacious entrance hall and cloakroom and a large open-plan kitchen/family room with French doors to the garden. On the first floor are two bedrooms and a living room with gallery looking down into the family room below. On the second floor is a third bedroom, family bathroom and a stunning master bedroom suite which features a mezzanine level accessed from a spiral staircase to the en-suite-bathroom and dressing room. There is off-street parking for two vehicles and an enclosed rear garden.</p>",
-                    outcode: "OX2",
-                    property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=48151235&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
-                    image_645_430_url: "https://lid.zoocdn.com/645/430/9e723c912d90f0735c4a2d3584ee702f68b52f04.jpg",
-                    county: "Oxfordshire",
-                    price: "1295000",
-                    listing_id: "48151235",
-                    image_caption: "Photo 14",
-                    image_80_60_url: "https://lid.zoocdn.com/80/60/9e723c912d90f0735c4a2d3584ee702f68b52f04.jpg",
-                    status: "for_sale",
-                    agent_name: "Thomas Merrifield - Oxford",
-                    num_recepts: "0",
-                    country: "England",
-                    first_published_date: "2018-06-27 13:39:15",
-                    displayable_address: "William Lucy Way, Oxford OX2",
-                    floor_plan: [
-                        "https://lc.zoocdn.com/466cd99f5a74aa7b49aa130a649d4d7acec33b50.jpg"
-                    ],
-                    street_name: "William Lucy Way",
-                    num_bathrooms: "0",
-                    agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(164952).png",
-                    price_change: [
-                        {
-                            direction: "",
-                            date: "2018-06-27 13:36:30",
-                            percent: "0%",
-                            price: "1295000"
-                        }
-                    ],
-                    agent_phone: "01865 366235",
-                    image_354_255_url: "https://lid.zoocdn.com/354/255/9e723c912d90f0735c4a2d3584ee702f68b52f04.jpg",
-                    image_url: "https://lid.zoocdn.com/354/255/9e723c912d90f0735c4a2d3584ee702f68b52f04.jpg",
-                    last_published_date: "2018-06-28 03:12:28"
-                },
-                {
-                    country_code: "gb",
-                    num_floors: "0",
-                    image_150_113_url: "https://lid.zoocdn.com/150/113/92c8f1d84d572ae4f17172d8003e5ac44184b28e.jpg",
-                    listing_status: "sale",
-                    num_bedrooms: "4",
-                    location_is_approximate: 0,
-                    image_50_38_url: "https://lid.zoocdn.com/50/38/92c8f1d84d572ae4f17172d8003e5ac44184b28e.jpg",
-                    latitude: 51.7285,
-                    furnished_state: null,
-                    agent_address: "40 Church Road, Wheatley, Oxford",
-                    category: "Residential",
-                    property_type: "Detached house",
-                    longitude: -1.261941,
-                    thumbnail_url: "https://lid.zoocdn.com/80/60/92c8f1d84d572ae4f17172d8003e5ac44184b28e.jpg",
-                    description: "A handsome post war family home set in grounds of over half an acre.Summary: A detached family home built in 1947 with south and west facing gardens, located in a discreet no-through road of just five dwellings. Approached through electric gates flanked by a well kept lawn is a 150ft gravel drive to sweeping parking and a double garage. The property did have an adjoining annexe which is now incorporated but could easily be divided again. The accommodation is generally very light and the layout meets the demands of modern family living with central reception rooms, children's playroom/snug, a large family kitchen, utility, four double bedrooms and still offers potential to create a fifth bedroom on the first floor (subject to the usual consents). There is a well lit loft space with a window approached by a ladder from the Snug. The grounds total 0.6 acre (0.24 ha) with an impressive frontage and to the rear of the house is a west facing al-fresco terrace with wide formal lawns beyond, a large children's play garden sits to one side and there is a versatile detached playroom/office which is supplied with power and light. The gardens overlook private woodland to the rear which provides seasonal colour changes and pleasant views.QualitiesOver 3,000 sqft of space4 double bedrooms & 3 bathroomsLots of light and bright roomsChoice of 4 reception roomsWell kept grounds of 0.6 acreLovely views over woodland SettingBetty Lane is a small discreet road off Hinksey Hill and is a minute from the A34 & Ring Road roundabout. The setting is a well regarded residential area with a significant number of sizeable detached houses in wooded gardens. Close by are a number of public houses and restaurants and there are foot paths and bridleways providing easy access to country walks. Within easy reach are the train stations at both Oxford, Oxford Parkway and Didcot Parkway. The house is ideally placed for a number of very highly regarded schools at both Abingdon and Oxford. Matthew Arnold and Chandlings School are also close by.ImportantWe would inform prospective purchasers that these sales particulars have been prepared as a general guide only. A detailed survey has not been carried out nor the services, appliances and fittings tested. Room sizes should not be relied upon for furnishings purposes and are approximate. Floor plans are for guidance and illustration purposes only and may not be to scale. If there any important matters likely to affect your decision to buy, please contact us before viewing the property.",
-                    post_town: "Oxford",
-                    details_url: "https://www.zoopla.co.uk/for-sale/details/47482410?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
-                    short_description: "<p class=\"top\">A handsome post war family home set in grounds of over half an acre.  <strong>Summary: </strong> A detached family home built in 1947 with south and west facing gardens, located in a discreet no-through road of just five dwellings. Approached through electric gates flanked by a well kept lawn is a 150ft gravel drive to sweeping parking and a double garage. The property did have an adjoining annexe which is now incorporated but could easily be divided again. The accommodation is generally very light and the layout meets the demands of modern family living with central reception rooms, children's playroom/snug, a large family kitchen, utility, four double bedrooms and still offers potential to create a fifth bedroom on the first floor (subject to the usual consents). There is a well lit loft space with a window approached by a ladder from the Snug. The grounds total 0.6 acre (0.24 ha) with an impressive frontage and to the rear of the house is a west facing al-fresco terrace with wide formal lawns beyond, a large children's play garden sits to one side and there is a versatile detached playroom/office which is supplied with power and light. The gardens overlook private woodland to the rear which provides seasonal colour changes and pleasant views.  <strong>Qualities</strong>  <ul> <li>Over 3,000 sqft of space</li> <li>4 double bedrooms &amp; 3 bathrooms</li> <li>Lots of light and bright rooms</li> <li>Choice of 4 reception rooms</li> <li>Well kept grounds of 0.6 acre</li> <li>Lovely views over woodland </li> </ul> <strong>Setting</strong> Betty Lane is a small discreet road off Hinksey Hill and is a minute from the A34 &amp; Ring Road roundabout. The setting is a well regarded residential area with a significant number of sizeable detached houses in wooded gardens. Close by are a number of public houses and restaurants and there are foot paths and bridleways providing easy access to country walks. Within easy reach are the train stations at both Oxford, Oxford Parkway and Didcot Parkway. The house is ideally placed for a number of very highly regarded schools at both Abingdon and Oxford. Matthew Arnold and Chandlings School are also close by.<strong>  </strong>  <strong>Important</strong> We would inform prospective purchasers that these sales particulars have been prepared as a general guide only. A detailed survey has not been carried out nor the services, appliances and fittings tested. Room sizes should not be relied upon for furnishings purposes and are approximate. Floor plans are for guidance and illustration purposes only and may not be to scale. If there any important matters likely to affect your decision to buy, please contact us before viewing the property.</p>",
-                    outcode: "OX1",
-                    property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=47482410&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
-                    image_645_430_url: "https://lid.zoocdn.com/645/430/92c8f1d84d572ae4f17172d8003e5ac44184b28e.jpg",
-                    county: "Oxfordshire",
-                    price: "1250000",
-                    listing_id: "47482410",
-                    image_caption: "",
-                    image_80_60_url: "https://lid.zoocdn.com/80/60/92c8f1d84d572ae4f17172d8003e5ac44184b28e.jpg",
-                    status: "for_sale",
-                    agent_name: "Turner Properties",
-                    num_recepts: "4",
-                    country: "England",
-                    first_published_date: "2018-05-02 16:17:05",
-                    displayable_address: "Betty Lane, Oxford OX1",
-                    floor_plan: [
-                        "https://lc.zoocdn.com/ed99ee4d3a539dbd62ad62146578b919b60a9e32.jpg"
-                    ],
-                    street_name: "Betty Lane",
-                    num_bathrooms: "3",
-                    agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(397328).png",
-                    price_change: [
-                        {
-                            direction: "",
-                            date: "2018-05-02 16:13:17",
-                            percent: "0%",
-                            price: "1250000"
-                        }
-                    ],
-                    agent_phone: "01865 680415",
-                    image_354_255_url: "https://lid.zoocdn.com/354/255/92c8f1d84d572ae4f17172d8003e5ac44184b28e.jpg",
-                    image_url: "https://lid.zoocdn.com/354/255/92c8f1d84d572ae4f17172d8003e5ac44184b28e.jpg",
-                    last_published_date: "2018-07-17 07:57:45"
-                },
-                {
-                    country_code: "gb",
-                    num_floors: "0",
-                    image_150_113_url: "https://lid.zoocdn.com/150/113/addea9d2b16d07ec50188ab2cef73cbebc5aa681.jpg",
-                    listing_status: "sale",
-                    num_bedrooms: "4",
-                    location_is_approximate: 0,
-                    image_50_38_url: "https://lid.zoocdn.com/50/38/addea9d2b16d07ec50188ab2cef73cbebc5aa681.jpg",
-                    latitude: 51.78243,
-                    furnished_state: null,
-                    agent_address: "257 Banbury Road, Oxford",
-                    category: "Residential",
-                    property_type: "Semi-detached house",
-                    letting_fees: "Fees apply<br><br>Tenant Fees &amp; Charges<br><br>Mandatory charges associated with the setting up of your tenancy<br><br>There are various fees and charges associated with renting a property that you should be aware of when considering making an offer on a property. More detailed information is available upon request.<br><br>(Where not payable you will be advised accordingly)<br><br>Preliminary Charge - 42% Inc. VAT of the first months rent or £420 Inc. VAT, whichever is the greater.<br>This charge all inclusive charge covers the tenancy agreement, referencing and the check-in. It is not collected until the landlord has, subject-to-contact and references, accepted your offer. If the tenancy does not proceed for whatever reason we will refund a proportionate amount of the charge based on work undertaken and costs incurred.<br><br>Short Let Fee – From £440 (Inc. VAT)†<br><br>This charge applies to short term lettings only and covers: The cost of preparing an Agreement; an inventory check-in and an end of tenancy clean (excluding carpets).<br><br>Other funds you should allow for<br><br>Payment of Intent – To be agreed with you<br><br>We may require a payment of intent as confirmation of your intent to proceed with the proposed tenancy. This will be put towards your first rental payment and will only be refunded if our client elects not to proceed. Payment of this sum does not constitute the granting of a tenancy.<br><br>Rent in Advance – 1 Month<br><br>You will usually be required to pay 1 months rent in advance.<br><br>Deposit – Equivalent to 6 weeks rent<br><br>The deposit is held to protect your landlord from you not meeting your obligations under the terms of the tenancy.<br><br>Stamp Duty Land Tax<br><br>This tax is payable on tenancies where the rent exceeds £125,000.<br><br>Charges if you terminate your tenancy Change of Sharer - £420 Inc. VAT<br><br>This charge applies when you wish to replace a named tenant with another tenant part way through your tenancy and your landlord has agreed to the change. Please note that the replacement tenant will be charged separately for referencing in the sum of £54 Inc. VAT each.<br><br>Deed of Surrender - £75 Inc. VAT<br><br>This charge applies to preparation of documentation where, at your request, the landlord has agreed to release you from the tenancy early.<br><br>Charges if you renew your tenancy<br><br>Memorandum of Renewal - £90 Inc. VAT<br><br>This charge covers the cost of preparing a basic document to confirm details of any renewal.<br><br>Renewal Tenancy Agreement - £150 Inc. VAT<br><br>This charge covers the cost of preparing a more extensive renewal document where changes to the terms agreed dictate.<br><br>Potential charges at the end of your tenancy<br><br>Future Landlord Reference - £30 Inc. VAT<br><br>This charge applies when you ask us to provide a reference to a future landlord.<br><br>† Based on a 2 bedroom property in London.",
-                    longitude: -1.264729,
-                    thumbnail_url: "https://lid.zoocdn.com/80/60/addea9d2b16d07ec50188ab2cef73cbebc5aa681.jpg",
-                    description: "This 1920’s house in a much favoured side road in Summertown has been sympathetically renovated, extended and tranformed into a stylish bespoke family home by the current owners.There is a stunning open plan family room/kitchen dining room with central feature chimney and fire place with a herringbone wood floor, contemporary grey base and eye level kitchen units, a centre island and contrasting marble and granite worksurfaces, an intergrated oven, hob and Smeg dishwasher. Leading off is an inner hall with geometric style floor tiles, a utility room, cloakroom and a separate sitting room with feature fireplace, an attractive bay window to the front complemented by plantation shutters.On the first floor is a master bedroom with ensuite bathroom with free standing bath, a further three double bedrooms, dressing room and a modern stylish family bathroom.SituationLying within this particularly sought after residential area of North Oxford, Victoria Road is one of the side roads leading off the Banbury Road in Summertown. The City of Oxford with the Dreaming Spires is world renowned for its university and architectural beauty and has been home to royalty and scholars for over 800 years. Forming part of the North Oxford conservation area, Summertown is a lovely residential area with a high percentage of period properties. The property is superbly located with easy access to a wide range of schools including St Philip and St James, The Dragon, Summer Fields, Magdalen College, St. Edward’s, Wychwood, Oxford High and Cherwell. The delightful University Parks and St. Giles are close by with access to the City centre and a vast array of facilities including theatres, museums, cinemas, shops and restaurants. There are frequent buses to the City centre and to Oxford mainline railway station and the new Oxford Parkway station with regular trains to London and beyond.OutsideTo the front of the property is a gravel drive with parking for several cars. The main garden lies at the rear of the property and is accessed via the French doors from the open plan living space. There is also access down the side of the house from the front driveway. Enclosed by timber fencing the garden is mainly laid to lawn with a brick herringbone terrace.",
-                    post_town: "Oxford",
-                    details_url: "https://www.zoopla.co.uk/for-sale/details/41715246?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
-                    short_description: "A bespoke contemporary conversion and extension of a 1920’s house with a stunning open plan family room/kitchen dining room in this much favoured side road in OX2, Summertown. There are frequent buses to Oxford City centre, Oxford Station and Oxford Parkway Station.",
-                    outcode: "OX2",
-                    property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=41715246&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
-                    image_645_430_url: "https://lid.zoocdn.com/645/430/addea9d2b16d07ec50188ab2cef73cbebc5aa681.jpg",
-                    county: "Oxfordshire",
-                    price: "1250000",
-                    listing_id: "41715246",
-                    image_caption: "Picture No. 43",
-                    image_80_60_url: "https://lid.zoocdn.com/80/60/addea9d2b16d07ec50188ab2cef73cbebc5aa681.jpg",
-                    status: "for_sale",
-                    agent_name: "Hamptons International - Oxford",
-                    num_recepts: "2",
-                    country: "England",
-                    first_published_date: "2018-07-27 22:43:19",
-                    displayable_address: "Victoria Road, Summertown, Oxford OX2",
-                    price_modifier: "guide_price",
-                    floor_plan: [
-                        "https://lc.zoocdn.com/fd844219dd1db5672dbfff511ae4c2cce403ca8e.gif",
-                        "https://lc.zoocdn.com/aef6460a56250c8c5dfec23208501d3f41070146.pdf"
-                    ],
-                    street_name: "Summertown Oxford",
-                    num_bathrooms: "2",
-                    agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(58008).jpeg",
-                    price_change: [
-                        {
-                            direction: "",
-                            date: "2018-07-27 21:34:55",
-                            percent: "0%",
-                            price: "1250000"
-                        }
-                    ],
-                    agent_phone: "01865 680572",
-                    image_354_255_url: "https://lid.zoocdn.com/354/255/addea9d2b16d07ec50188ab2cef73cbebc5aa681.jpg",
-                    image_url: "https://lid.zoocdn.com/354/255/addea9d2b16d07ec50188ab2cef73cbebc5aa681.jpg",
-                    last_published_date: "2018-07-27 22:52:07"
-                },
-                {
-                    country_code: "gb",
-                    num_floors: "0",
-                    image_150_113_url: "https://lid.zoocdn.com/150/113/7723945b75476e4c895ca6a44f7510f79a9fd790.jpg",
-                    listing_status: "sale",
-                    num_bedrooms: "4",
-                    location_is_approximate: 0,
-                    image_50_38_url: "https://lid.zoocdn.com/50/38/7723945b75476e4c895ca6a44f7510f79a9fd790.jpg",
-                    latitude: 51.764668,
-                    furnished_state: null,
-                    agent_address: "255 Banbury Road, Oxford",
-                    category: "Residential",
-                    property_type: "Terraced house",
-                    letting_fees: "N/a",
-                    longitude: -1.269828,
-                    thumbnail_url: "https://lid.zoocdn.com/80/60/7723945b75476e4c895ca6a44f7510f79a9fd790.jpg",
-                    description: "Property DescriptionA substantial Victorian property built circa 1885 to a design by Wilkinson & Moore, the accommodation is arranged over four floors.Property DetailsThis property offers a truly tranquil setting but within access of Port Meadow and all the facilities of Walton Street and Oxford City Centre. There are hourly rail services to London Paddington and Marylebone station, approximately one hour from Oxford mainline station and from the coach station at Gloucester Green there are frequent buses to London Victoria, Heathrow, Gatwick and Stansted airports. This property is in the catchment area for multiple schools.",
-                    post_town: "Oxford",
-                    details_url: "https://www.zoopla.co.uk/for-sale/details/47765098?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
-                    short_description: "A substantial Victorian property built circa 1885 to a design by Wilkinson &amp; Moore, the accommodation is arranged over four floors.",
-                    outcode: "OX2",
-                    property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=47765098&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
-                    image_645_430_url: "https://lid.zoocdn.com/645/430/7723945b75476e4c895ca6a44f7510f79a9fd790.jpg",
-                    county: "Oxfordshire",
-                    price: "1200000",
-                    listing_id: "47765098",
-                    image_caption: "Front Of Property",
-                    image_80_60_url: "https://lid.zoocdn.com/80/60/7723945b75476e4c895ca6a44f7510f79a9fd790.jpg",
-                    status: "for_sale",
-                    agent_name: "Chancellors - Summertown",
-                    num_recepts: "0",
-                    country: "England",
-                    first_published_date: "2018-05-25 13:49:38",
-                    displayable_address: "Southmoor Road, North Oxford OX2, Oxfordshire,",
-                    price_modifier: "offers_over",
-                    floor_plan: [
-                        "https://lc.zoocdn.com/900c1b9029bd5e0673d2c6383b0cd10a11a06950.png"
-                    ],
-                    street_name: "Southmoor Road, North Oxford OX2",
-                    num_bathrooms: "0",
-                    agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(487497).png",
-                    price_change: [
-                        {
-                            direction: "",
-                            date: "2018-05-25 13:46:20",
-                            percent: "0%",
-                            price: "1300000"
-                        },
-                        {
-                            direction: "down",
-                            date: "2018-06-12 15:32:25",
-                            percent: "-7.6%",
-                            price: "1200000"
-                        }
-                    ],
-                    agent_phone: "01865 366257",
-                    image_354_255_url: "https://lid.zoocdn.com/354/255/7723945b75476e4c895ca6a44f7510f79a9fd790.jpg",
-                    image_url: "https://lid.zoocdn.com/354/255/7723945b75476e4c895ca6a44f7510f79a9fd790.jpg",
-                    last_published_date: "2018-06-19 11:20:15",
-                    price_change_summary: {
-                        direction: "down",
-                        percent: "-7.6%",
-                        last_updated_date: "2018-06-12 15:32:25"
-                    }
-                },
-                {
-                    country_code: "gb",
-                    num_floors: "0",
-                    image_150_113_url: "https://lid.zoocdn.com/150/113/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
-                    listing_status: "sale",
-                    num_bedrooms: "4",
-                    location_is_approximate: 0,
-                    image_50_38_url: "https://lid.zoocdn.com/50/38/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
-                    latitude: 51.792755,
-                    furnished_state: null,
-                    agent_address: "256 Banbury Road, Summertown",
-                    category: "Residential",
-                    property_type: "Semi-detached house",
-                    longitude: -1.280105,
-                    floor_area: {
-                        max_floor_area: {
-                            value: "1947",
-                            units: "sq_feet"
-                        },
-                        min_floor_area: {
-                            value: "1947",
-                            units: "sq_feet"
-                        }
-                    },
-                    thumbnail_url: "https://lid.zoocdn.com/80/60/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
-                    description: "Description  A unique opportunity to acquire a stunning four bedroom family home which has been recently extended and renovated by the current owners to create a beautiful property overlooking the lake. Each floor has been thoughtfully designed to take full advantage of the unique and wonderful views over the water. The accommodation comprises; entrance hall, integral garage, cloakroom, utility room, study, kitchen, open plan sitting/dining room with bi-folding doors onto the decking and gardens beyond. The first floor offers master bedroom with ensuite shower room, two further bedrooms and a bathroom. The second floor offers a further bedroom with ensuite shower room. The property benefits from off street parking to the front and south facing gardens running down to the lake where there is a summerhouse currently arranged as a home gym.Situation  Situated in North Oxford, the location provides good access to all the day to day shopping facilities of Summertown including Marks & Spencer, bars, restaurants and a theatre with slightly further afield the comprehensive amenities of Oxford city centre. The location is within the Cherwell School Catchment area and the new Oxford Parkway station leads into London Marylebone and is a mere 1.4 miles away (short cycle ride). There is easy access to the Oxford ring road connecting to the A34, A40 and M40 to London. The central Oxford rail station has regular services to London Paddingtonviewing arrangements  Strictly by appointment with Penny & Sinclair. Prior to making an appointment to view, Penny & Sinclair strongly recommend that you discuss any particular points which are likely to affect your interest in the property with a member of Penny & Sinclair's staff who has seen the property, in order that you do not make a wasted journey.Services  All mains services are connected.Tenure & possession  The property is freehold and offers vacant possession on completion.Fixtures & fittings  Certain items may be available by separate negotiation with Penny & Sinclair.Local authority  Oxford City CouncilQueen StreetOxfordOX1 1ENTelephone: Important notice  Penny & Sinclair, their clients and any joint agent gives notice to anyone reading these particulars that:I) the particulars do not constitute part of an offer or contract; ii) all descriptions, dimensions, references to the condition and necessary permissions for use and occupation, and other details are given without responsibility and any intending purchasers should not rely on them as statement or representations of fact. Iii) the text, photographs and plans are guidelines only and are not necessarily comprehensive. Any reference to alterations to, or use of, any part of the property does not mean that all necessary planning, building regulations or other consents have been obtained and Penny & Sinclair have not tested any services, equipment or facilities. A buyer or lessee must satisfy themselves by inspection or otherwise. Iv) the descriptions provided therein represent the opinion of the author and whilst given in good faith should not be construed as statements of fact; v) nothing in the particulars shall be deemed a statement that the property is in good condition or otherwise, nor that any services or facilities are in good working order; vi) no person in the employment of Penny & Sinclair has any authority to make or give any representation or warranty whatsoever in relation to this property. Vii) all measurements are approximate.",
-                    post_town: "Oxford",
-                    details_url: "https://www.zoopla.co.uk/for-sale/details/47515944?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
-                    short_description: "A truly stunning lakeside property with unique views across this picturesque lake whilst being only a short distance from Summertown and Oxford City Centre.",
-                    outcode: "OX2",
-                    property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=47515944&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
-                    image_645_430_url: "https://lid.zoocdn.com/645/430/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
-                    county: "Oxfordshire",
-                    price: "1200000",
-                    listing_id: "47515944",
-                    image_caption: "",
-                    image_80_60_url: "https://lid.zoocdn.com/80/60/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
-                    status: "for_sale",
-                    agent_name: "Penny & Sinclair",
-                    num_recepts: "3",
-                    country: "England",
-                    first_published_date: "2018-05-04 18:20:20",
-                    displayable_address: "Lakeside, Oxford OX2",
-                    price_modifier: "guide_price",
-                    floor_plan: [
-                        "https://lc.zoocdn.com/83c07a00584e1544109a3ee3a36142cdf6020e3e.png"
-                    ],
-                    street_name: "Lakeside",
-                    num_bathrooms: "3",
-                    agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(380441).png",
-                    price_change: [
-                        {
-                            direction: "",
-                            date: "2018-05-04 18:18:27",
-                            percent: "0%",
-                            price: "1200000"
-                        }
-                    ],
-                    agent_phone: "01865 680454",
-                    image_354_255_url: "https://lid.zoocdn.com/354/255/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
-                    image_url: "https://lid.zoocdn.com/354/255/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
-                    last_published_date: "2018-05-15 09:10:06"
-                },
-                {
-                    country_code: "gb",
-                    num_floors: "0",
-                    image_150_113_url: "https://lid.zoocdn.com/150/113/63ab3d76ba595e17bb0dfb09b56cb7e973d0c1d4.jpg",
-                    listing_status: "sale",
-                    num_bedrooms: "4",
-                    location_is_approximate: 0,
-                    image_50_38_url: "https://lid.zoocdn.com/50/38/63ab3d76ba595e17bb0dfb09b56cb7e973d0c1d4.jpg",
-                    latitude: 51.77293,
-                    furnished_state: null,
-                    agent_address: "205a Banbury Road, Summertown, Oxford",
-                    category: "Residential",
-                    property_type: "Terraced house",
-                    longitude: -1.261043,
-                    thumbnail_url: "https://lid.zoocdn.com/80/60/63ab3d76ba595e17bb0dfb09b56cb7e973d0c1d4.jpg",
-                    description: "Beautifully renovated home with south facing gardens.Generously proportioned four bedroom family home, located in one of Central North Oxford's most sought after and desirable side roads. This splendid family home comprises an impressive open plan kitchen/dining/family room which leads into a stunning garden room, kitchen and ground floor w/c. At first floor level are four bedrooms with two bathrooms (one en suite). Outside the property is complemented by beautiful well-maintained south facing gardens with side access whilst to the front is driveway parking for two cars and integral garage.Cunliffe Close offers the peace and quiet of a no through road, combined with the tremendous advantage of being conveniently located for the comprehensive amenities of Summertown and North Oxford, whilst offering easy access to both Oxford City Centre via the Banbury Road and Marston/Headington via the Marston Ferry Road. The renowned Oxford Schools are all within easy reach.Please contact the office for further information or to arrange a viewing.",
-                    post_town: "Oxford",
-                    details_url: "https://www.zoopla.co.uk/for-sale/details/48439434?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
-                    short_description: "<p class=\"top\">Beautifully renovated home with south facing gardens.  Generously proportioned four bedroom family home, located in one of Central North Oxford's most sought after and desirable side roads. This splendid family home comprises an impressive open plan kitchen/dining/family room which leads into a stunning garden room, kitchen and ground floor w/c. At first floor level are four bedrooms with two bathrooms (one en suite). Outside the property is complemented by beautiful well-maintained south facing gardens with side access whilst to the front is driveway parking for two cars and integral garage.  Cunliffe Close offers the peace and quiet of a no through road, combined with the tremendous advantage of being conveniently located for the comprehensive amenities of Summertown and North Oxford, whilst offering easy access to both Oxford City Centre via the Banbury Road and Marston/Headington via the Marston Ferry Road. The renowned Oxford Schools are all within easy reach.  Please contact the office for further information or to arrange a viewing.</p>",
-                    outcode: "OX2",
-                    property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=48439434&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
-                    image_645_430_url: "https://lid.zoocdn.com/645/430/63ab3d76ba595e17bb0dfb09b56cb7e973d0c1d4.jpg",
-                    county: "Oxfordshire",
-                    price: "1200000",
-                    listing_id: "48439434",
-                    image_caption: "Front",
-                    image_80_60_url: "https://lid.zoocdn.com/80/60/63ab3d76ba595e17bb0dfb09b56cb7e973d0c1d4.jpg",
-                    status: "for_sale",
-                    agent_name: "Scott Fraser - Summertown",
-                    num_recepts: "2",
-                    country: "England",
-                    first_published_date: "2018-07-19 09:03:50",
-                    displayable_address: "Cunliffe Close, Oxford OX2",
-                    price_modifier: "guide_price",
-                    floor_plan: [
-                        "https://lc.zoocdn.com/a52a8212a92d696bc01311feb1b2df772dd36e88.jpg"
-                    ],
-                    street_name: "Cunliffe Close",
-                    num_bathrooms: "2",
-                    agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(562535).png",
-                    price_change: [
-                        {
-                            direction: "",
-                            date: "2018-07-19 09:00:08",
-                            percent: "0%",
-                            price: "1200000"
-                        }
-                    ],
-                    agent_phone: "01865 680776",
-                    image_354_255_url: "https://lid.zoocdn.com/354/255/63ab3d76ba595e17bb0dfb09b56cb7e973d0c1d4.jpg",
-                    image_url: "https://lid.zoocdn.com/354/255/63ab3d76ba595e17bb0dfb09b56cb7e973d0c1d4.jpg",
-                    last_published_date: "2018-07-26 10:12:08"
-                },
-                {
-                    country_code: "gb",
-                    num_floors: "0",
-                    image_150_113_url: "https://lid.zoocdn.com/150/113/dfd42799d7ee9e47599da71be5bafc12aaf8bce1.jpg",
-                    listing_status: "sale",
-                    num_bedrooms: "4",
-                    location_is_approximate: 0,
-                    image_50_38_url: "https://lid.zoocdn.com/50/38/dfd42799d7ee9e47599da71be5bafc12aaf8bce1.jpg",
-                    latitude: 51.78783,
-                    furnished_state: null,
-                    agent_address: "205a Banbury Road, Summertown, Oxford",
-                    category: "Residential",
-                    property_type: "Semi-detached house",
-                    longitude: -1.277283,
-                    thumbnail_url: "https://lid.zoocdn.com/80/60/dfd42799d7ee9e47599da71be5bafc12aaf8bce1.jpg",
-                    description: "Confidential property register.Striking four and five bedroom townhouses with stunning interiors and a luxury specification. Build complete Autumn 2018.To register for exclusive 'off market' property alerts contact Oliver Saxton on or email at .We hold a confidential property register of key city and village properties which are not available on the open market. There are many reasons why some of our clients have favoured this low key marketing approach so please contact Oliver Saxton to discuss your requirements and to obtain further information about this property or a number of other properties that at not currently available on-line or on the open market.Developers hope that they will be complete October/Novembertwo parking spaces at front with drop kerball the noisy work on detached property will hopefully be complete within 8 months - they did not start work on it yet to allow access to gardens of semi'sadjoining wall between semis is virtually sounds proof - they went above and beyond on insulationkitchen is a German make top qualityall bedrooms will have bespoke built ion wardrobestriple glazing at frontdigital showers with easy access panels to allow maintenance etcsolar panels on roofoak doors and staircasetiled flooring downstairs apart from lounge which will be carpeted along with upper floorsunderfloor heating throughoutconcrete and steel build - low noise transferancevery well insulatedsouth facing rear garden -kitchen will have large velux windows on pitched roof to flood kitchen diner with lightgarden plot on rear can be purchased by any interested buyers",
-                    post_town: "Oxford",
-                    details_url: "https://www.zoopla.co.uk/for-sale/details/48396908?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
-                    short_description: "<p class=\"top\">Confidential property register.  Striking four and five bedroom townhouses with stunning interiors and a luxury specification. Build complete Autumn 2018.  To register for exclusive 'off market' property alerts contact Oliver Saxton on or email at .  We hold a confidential property register of key city and village properties which are not available on the open market. There are many reasons why some of our clients have favoured this low key marketing approach so please contact Oliver Saxton to discuss your requirements and to obtain further information about this property or a number of other properties that at not currently available on-line or on the open market.  Developers hope that they will be complete October/November two parking spaces at front with drop kerb all the noisy work on detached property will hopefully be complete within 8 months - they did not start work on it yet to allow access to gardens of semi's adjoining wall between semis is virtually sounds proof - they went above and beyond on insulation kitchen is a German make top quality all bedrooms will have bespoke built ion wardrobes triple glazing at front digital showers with easy access panels to allow maintenance etc solar panels on roof oak doors and staircase  tiled flooring downstairs apart from lounge which will be carpeted along with upper floors underfloor heating throughout concrete and steel build - low noise transferance very well insulated south facing rear garden - kitchen will have large velux windows on pitched roof to flood kitchen diner with light garden plot on rear can be purchased by any interested buyers</p>",
-                    outcode: "OX2",
-                    property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=48396908&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
-                    image_645_430_url: "https://lid.zoocdn.com/645/430/dfd42799d7ee9e47599da71be5bafc12aaf8bce1.jpg",
-                    county: "Oxfordshire",
-                    price: "1150000",
-                    listing_id: "48396908",
-                    image_caption: "Confidential Property Register",
-                    image_80_60_url: "https://lid.zoocdn.com/80/60/dfd42799d7ee9e47599da71be5bafc12aaf8bce1.jpg",
-                    status: "for_sale",
-                    agent_name: "Scott Fraser - Summertown",
-                    num_recepts: "2",
-                    country: "England",
-                    first_published_date: "2018-07-16 16:04:23",
-                    displayable_address: "Sunderland Avenue, Oxford OX2",
-                    price_modifier: "guide_price",
-                    street_name: "Prime City Location",
-                    num_bathrooms: "3",
-                    agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(562535).png",
-                    price_change: [
-                        {
-                            direction: "",
-                            date: "2018-07-16 16:00:16",
-                            percent: "0%",
-                            price: "1150000"
-                        }
-                    ],
-                    agent_phone: "01865 680776",
-                    image_354_255_url: "https://lid.zoocdn.com/354/255/dfd42799d7ee9e47599da71be5bafc12aaf8bce1.jpg",
-                    image_url: "https://lid.zoocdn.com/354/255/dfd42799d7ee9e47599da71be5bafc12aaf8bce1.jpg",
-                    last_published_date: "2018-07-20 11:05:52"
-                },
-                {
-                    country_code: "gb",
-                    num_floors: "0",
-                    image_150_113_url: "https://lid.zoocdn.com/150/113/7c0f38ab24c2e0908add166091a7cf6e82c3c8ff.jpg",
-                    listing_status: "sale",
-                    num_bedrooms: "4",
-                    location_is_approximate: 0,
-                    image_50_38_url: "https://lid.zoocdn.com/50/38/7c0f38ab24c2e0908add166091a7cf6e82c3c8ff.jpg",
-                    latitude: 51.780785,
-                    furnished_state: null,
-                    agent_address: "256 Banbury Road, Summertown",
-                    category: "Residential",
-                    property_type: "Terraced house",
-                    longitude: -1.270235,
-                    floor_area: {
-                        max_floor_area: {
-                            value: "1908",
-                            units: "sq_feet"
-                        },
-                        min_floor_area: {
-                            value: "1908",
-                            units: "sq_feet"
-                        }
-                    },
-                    thumbnail_url: "https://lid.zoocdn.com/80/60/7c0f38ab24c2e0908add166091a7cf6e82c3c8ff.jpg",
-                    description: "Description  Set in the heart of Summertown a beautifully presented, spacious townhouse offering well planned accommodation over three floors within walking distance of the amenities of North Oxford schools and Summertown. The ground floor comprises entrance hall, cloakroom, kitchen/breakfast room and a full width sitting room with access to a pretty landscaped garden. On the first floor there is a master bedroom with ensuite bathroom and a further double bedroom. The second floor has two further double bedrooms (one with ensuite shower room) and a family bathroom. A door from the sitting room leads to the garden which has been creatively landscaped. There is also rear access to the garden via the end of the terrace. There is a parking space at the front of the property.Situation  Situated in Summertown and on a level walk to all the day to day shopping facilities including bars, restaurants and a Marks and Spencer food hall with slightly further afield the more comprehensive amenities of Oxford City Centre. The Woodstock and Banbury roads join directly to the Oxford ring road connecting to the A40 and M40 to London. The Oxford rail station has regular services directly to London Paddington and the new Oxford Parkway station provides regular services to London Marylebone.Directions  From Penny & Sinclair Offices proceed north along the Banbury Road. Turn left on to South Parade and right into Middle Way, turn left into Hyde Place and the property will be found at the end on the right hand side.Viewing arrangements  Strictly by appointment with Penny & Sinclair. Prior to making an appointment to view, Penny & Sinclair strongly recommend that you discuss any particular points which are likely to affect your interest in the property with a member of staff who has seen the property in order that you do not make a wasted journey.Tenure and possession  The property is Freehold and offers vacant possession upon completion.Fixtures and fittings  Certain items may be available by separate negotiation with Penny & Sinclair.Services  All mains services are connected.Council tax  Council Tax Band 'F' amounting to £2762.00 for the year 2018/19Council Tax Department Tel: Local authority  Oxford City CouncilTown HallSt AldatesOxfordOX1 1BX inportant notice Penny & Sinclair, their clients and any joint agent gives notice to anyone reading these particulars that:I) the particulars do not constitute part of an offer or contract; ii) all descriptions, dimensions, references to the condition and necessary permissions for use and occupation, and other details are given without responsibility and any intending purchasers should not rely on them as statement or representations of fact. Iii) the text, photographs and plans are guidelines only and are not necessarily comprehensive. Any reference to alterations to, or use of, any part of the property does not mean that all necessary planning, building regulations or other consents have been obtained and Penny & Sinclair have not tested any services, equipment or facilities. A buyer or lessee must satisfy themselves by inspection or otherwise. Iv) the descriptions provided therein represent the opinion of the author and whilst given in good faith should not be construed as statements of fact; v) nothing in the particulars shall be deemed a statement that the property is in good condition or otherwise, nor that any services or facilities are in good working order; vi) no person in the employment of Penny & Sinclair has any authority to make or give any representation or warranty whatsoever in relation to this property. Vii) all measurements are approximate.",
-                    post_town: "Oxford",
-                    details_url: "https://www.zoopla.co.uk/for-sale/details/47750735?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
-                    short_description: "A beautifully presented four bedroom town house with a parking space situated in a quiet cul de sac within easy reach of Summertown.",
-                    outcode: "OX2",
-                    property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=47750735&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
-                    image_645_430_url: "https://lid.zoocdn.com/645/430/7c0f38ab24c2e0908add166091a7cf6e82c3c8ff.jpg",
-                    county: "Oxfordshire",
-                    price: "1150000",
-                    listing_id: "47750735",
-                    image_caption: "",
-                    image_80_60_url: "https://lid.zoocdn.com/80/60/7c0f38ab24c2e0908add166091a7cf6e82c3c8ff.jpg",
-                    status: "for_sale",
-                    agent_name: "Penny & Sinclair",
-                    num_recepts: "1",
-                    country: "England",
-                    first_published_date: "2018-05-24 16:19:32",
-                    displayable_address: "Hyde Place, Summertown, Oxford OX2",
-                    price_modifier: "guide_price",
-                    floor_plan: [
-                        "https://lc.zoocdn.com/a6138934e7c67f51e933feb04e2f1325522379af.png"
-                    ],
-                    street_name: "Hyde Place",
-                    num_bathrooms: "3",
-                    agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(380441).png",
-                    price_change: [
-                        {
-                            direction: "",
-                            date: "2018-05-24 16:16:09",
-                            percent: "0%",
-                            price: "1200000"
-                        },
-                        {
-                            direction: "down",
-                            date: "2018-06-08 13:21:30",
-                            percent: "-4.1%",
-                            price: "1150000"
-                        }
-                    ],
-                    agent_phone: "01865 680454",
-                    image_354_255_url: "https://lid.zoocdn.com/354/255/7c0f38ab24c2e0908add166091a7cf6e82c3c8ff.jpg",
-                    image_url: "https://lid.zoocdn.com/354/255/7c0f38ab24c2e0908add166091a7cf6e82c3c8ff.jpg",
-                    last_published_date: "2018-07-16 14:05:54",
-                    price_change_summary: {
-                        direction: "down",
-                        percent: "-4.1%",
-                        last_updated_date: "2018-06-08 13:21:30"
-                    }
-                },
-                {
-                    country_code: "gb",
-                    num_floors: "0",
-                    image_150_113_url: "https://lid.zoocdn.com/150/113/5c76e0e55a7a22fe024bc9d5fef36cd666d3428e.jpg",
-                    listing_status: "sale",
-                    num_bedrooms: "4",
-                    location_is_approximate: 0,
-                    image_50_38_url: "https://lid.zoocdn.com/50/38/5c76e0e55a7a22fe024bc9d5fef36cd666d3428e.jpg",
-                    latitude: 51.768375,
-                    furnished_state: null,
-                    agent_address: "255 Banbury Road, Oxford",
-                    category: "Residential",
-                    property_type: "Terraced house",
-                    letting_fees: "N/a",
-                    longitude: -1.270261,
-                    thumbnail_url: "https://lid.zoocdn.com/80/60/5c76e0e55a7a22fe024bc9d5fef36cd666d3428e.jpg",
-                    description: "Property DescriptionThis 4 Double Bedroom, Three Bathroom Family home is situated next to the Oxford Canal, the property benefits from Jericho shops and amenities being only 0.7 miles away, offering generous living accommodation throughout, Neutral décor and a fabulous location, viewings are highly recommended.",
-                    post_town: "Oxford",
-                    details_url: "https://www.zoopla.co.uk/for-sale/details/47748140?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
-                    short_description: "This 4 Double Bedroom, Three Bathroom Family home is situated next to the Oxford Canal, the property benefits from Jericho shops and amenities being only 0.7 miles away, offering generous living accommodation throughout, Neutral décor and a fabulous location, viewings are highly recommended.",
-                    outcode: "OX2",
-                    property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=47748140&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
-                    image_645_430_url: "https://lid.zoocdn.com/645/430/5c76e0e55a7a22fe024bc9d5fef36cd666d3428e.jpg",
-                    county: "Oxfordshire",
-                    price: "1150000",
-                    listing_id: "47748140",
-                    image_caption: "Front Of Property",
-                    image_80_60_url: "https://lid.zoocdn.com/80/60/5c76e0e55a7a22fe024bc9d5fef36cd666d3428e.jpg",
-                    status: "for_sale",
-                    agent_name: "Chancellors - Summertown",
-                    num_recepts: "0",
-                    country: "England",
-                    first_published_date: "2018-05-24 14:34:27",
-                    displayable_address: "Burgess Mead, Oxford Waterways OX2, North Oxford, Oxon,",
-                    price_modifier: "offers_in_region_of",
-                    floor_plan: [
-                        "https://lc.zoocdn.com/e9b537c53c0078a3ac1a9bb127e96d8160ac8b0e.png"
-                    ],
-                    street_name: "Burgess Mead, Oxford Waterways, OX2",
-                    num_bathrooms: "0",
-                    agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(487497).png",
-                    price_change: [
-                        {
-                            direction: "",
-                            date: "2018-05-24 14:31:33",
-                            percent: "0%",
-                            price: "1250000"
-                        },
-                        {
-                            direction: "down",
-                            date: "2018-06-27 08:46:45",
-                            percent: "-8%",
-                            price: "1150000"
-                        }
-                    ],
-                    agent_phone: "01865 366257",
-                    image_354_255_url: "https://lid.zoocdn.com/354/255/5c76e0e55a7a22fe024bc9d5fef36cd666d3428e.jpg",
-                    image_url: "https://lid.zoocdn.com/354/255/5c76e0e55a7a22fe024bc9d5fef36cd666d3428e.jpg",
-                    last_published_date: "2018-07-27 09:04:39",
-                    price_change_summary: {
-                        direction: "down",
-                        percent: "-8%",
-                        last_updated_date: "2018-06-27 08:46:45"
-                    }
+                min_floor_area: {
+                    value: "3888",
+                    units: "sq_feet"
                 }
-            ];
-        //     ],
-        //     street: "",
-        //     town: "Oxford",
-        //     latitude: 51.7460495,
-        //     county: "Oxfordshire",
-        //     bounding_box: {
-        //         longitude_min: "-1.361637",
-        //         latitude_min: "51.6709",
-        //         longitude_max: "-1.058679",
-        //         latitude_max: "51.821199"
-        //     },
-        //     postcode: ""
-        // }
+            },
+            thumbnail_url: "https://lid.zoocdn.com/80/60/251be2398cc35082c1665a7b16769c0382c583b0.jpg",
+            description: "Description  Built in 1874 by local builder, James Walter to a design by the architect Frederick Codd, 4 Canterbury Road is an attractive and substantial detached house enjoying a south facing walled garden situated in the North Oxford Conservation area. The property offers elegant and flexible accommodation arranged over four floors with many retained period features typical of its era including spacious rooms with high ceilings, cornicing, fireplaces, sash and broad bay windows.The ground floor offers an attractive reception hall accessed from a tiled entrance porch, a beautiful bay windowed drawing room, a library/sitting room, cloakroom and a study with French doors opening to steps down to the garden. Arranged over the first and second floors are seven/eight bedrooms, and three shower rooms (one en-suite). The lower ground floor offers a kitchen, dining room, utility room, store room, wet room and a large family room with bay window. There is a side entrance with access to the garden and the front of the house.To the exterior is parking for several cars to the front which leads to side access to a south facing garden mainly laid to lawn edged with mature shrubs. In addition there is a garage with vehicular access from Winchester Road and a pedestrian access directly into the garden.Situation  Canterbury Road is one of the most sought-after side roads in Central North Oxford; it runs between the Banbury and Woodstock Roads. It is roughly equidistant between the City centre and Summertown, in the most popular and prestigious residential area of the historic city. There are regular bus services on both the Banbury and Woodstock Roads to the city centre and the University. Summertown has a good range of shops including many of the major supermarkets and banks together with numerous restaurants/coffee shops, and an array of independent outlets. One of the main draws to the location is the Oxford schooling including the Dragon, Summerfields, Magdalen College School, Oxford High School, St Edwards and Cherwell School to name a few. Charming North Parade, with its popular pubs and restaurants is a short walk just around the corner from Canterbury Road, the shops and restaurants of Walton Street, The University Park and Port Meadow are also nearby. The Oxford mainline station has regular rail services to London Paddington, and Oxford Parkway station leads into London Marylebone, there are frequent buses to London Victoria, Heathrow and Gatwick airports from the coach station at Gloucester Green.Directions  From the Penny & Sinclair offices proceed south down the Banbury Road towards the City centre. After approximately 1 mile, turn right into Canterbury Road where the property will be found on the left hand side.Viewing arrangements  Strictly by appointment with Penny & Sinclair. Prior to making an appointment to view, Penny & Sinclair strongly recommend that you discuss any particular points which are likely to affect your interest in the property with a member of Penny & Sinclair's staff who has seen the property, in order that you do not make a wasted journey.Services  All mains services are connected.Fixtures and fittings  Certain items may be available by separate negotiation with Penny & Sinclair.Tenure and possession  The property is freehold and offers vacant possession upon completion.Council tax  Council Tax 'H' amounting to £3,622 for year 2018/19Tel: Local authority  Oxford City CouncilTown HallSt AldatesOxfordOX1 1BXimportant notice  Penny & Sinclair, their clients and any joint agent gives notice to anyone reading these particulars that:I) the particulars do not constitute part of an offer or contract; ii) all descriptions, dimensions, references to the condition and necessary permissions for use and occupation, and other details are given without responsibility and any intending purchasers should not rely on them as statement or representations of fact. Iii) the text, photographs and plans are guidelines only and are not necessarily comprehensive. Any reference to alterations to, or use of, any part of the property does not mean that all necessary planning, building regulations or other consents have been obtained and Penny & Sinclair have not tested any services, equipment or facilities. A buyer or lessee must satisfy themselves by inspection or otherwise. Iv) the descriptions provided therein represent the opinion of the author and whilst given in good faith should not be construed as statements of fact; v) nothing in the particulars shall be deemed a statement that the property is in good condition or otherwise, nor that any services or facilities are in good working order; vi) no person in the employment of Penny & Sinclair has any authority to make or give any representation or warranty whatsoever in relation to this property. Vii) all measurements are approximate.",
+            post_town: "Oxford",
+            details_url: "https://www.zoopla.co.uk/for-sale/details/46706685?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
+            short_description: "An elegant detached Victorian property situated in the heart of the North Oxford Victorian Conservation Area offering large rooms with high ceilings, ornate fireplaces, stained glass and sash windows.",
+            outcode: "OX2",
+            property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=46706685&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
+            image_645_430_url: "https://lid.zoocdn.com/645/430/251be2398cc35082c1665a7b16769c0382c583b0.jpg",
+            county: "Oxfordshire",
+            price: "3750000",
+            listing_id: "46706685",
+            image_caption: "",
+            image_80_60_url: "https://lid.zoocdn.com/80/60/251be2398cc35082c1665a7b16769c0382c583b0.jpg",
+            status: "for_sale",
+            agent_name: "Penny & Sinclair",
+            num_recepts: "4",
+            country: "England",
+            first_published_date: "2018-02-22 17:23:19",
+            displayable_address: "Canterbury Road, Oxford OX2",
+            price_modifier: "guide_price",
+            floor_plan: [
+                "https://lc.zoocdn.com/20511d01df324401aa3dee70ca0e352264a37fe6.png"
+            ],
+            street_name: "Canterbury Road",
+            num_bathrooms: "5",
+            agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(380441).png",
+            price_change: [
+                {
+                    direction: "",
+                    date: "2018-02-22 17:22:03",
+                    percent: "0%",
+                    price: "3950000"
+                },
+                {
+                    direction: "down",
+                    date: "2018-05-04 10:31:17",
+                    percent: "-5%",
+                    price: "3750000"
+                }
+            ],
+            agent_phone: "01865 680454",
+            image_354_255_url: "https://lid.zoocdn.com/354/255/251be2398cc35082c1665a7b16769c0382c583b0.jpg",
+            image_url: "https://lid.zoocdn.com/354/255/251be2398cc35082c1665a7b16769c0382c583b0.jpg",
+            last_published_date: "2018-07-26 15:57:06",
+            price_change_summary: {
+                direction: "down",
+                percent: "-5%",
+                last_updated_date: "2018-05-04 10:31:17"
+            }
+        },
+        {
+            country_code: "gb",
+            num_floors: "0",
+            image_150_113_url: "https://lid.zoocdn.com/150/113/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
+            listing_status: "sale",
+            num_bedrooms: "10",
+            location_is_approximate: 0,
+            image_50_38_url: "https://lid.zoocdn.com/50/38/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
+            latitude: 51.792755,
+            furnished_state: null,
+            agent_address: "256 Banbury Road, Summertown",
+            category: "Residential",
+            property_type: "Detached house",
+            longitude: -1.280105,
+            floor_area: {
+                max_floor_area: {
+                    value: "7841",
+                    units: "sq_feet"
+                },
+                min_floor_area: {
+                    value: "7841",
+                    units: "sq_feet"
+                }
+            },
+            thumbnail_url: "https://lid.zoocdn.com/80/60/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
+            description: "Description  Currently arranged as two dwellings, this detached property has been extended and renovated to offer  of accommodation tucked away in the corner of Lakeside with beautiful south facing views over the lake.13 Lakeside has accommodation comprising of entrance hall, cloakroom, utility room, study, family room, drawing room and kitchen/breakfast room on the ground floor. The first floor offers four double en suite bedrooms (two with private south facing balconies over looking the garden and lake beyond). The second floor offers a further two double en suite bedrooms with private balconies over looking the lake. There is a double garage with internal access from the house and a gravelled parking area to the rear for several cars. To the rear of the house is a large decked area and lawned south facing gardens leading down to the lake.13a Lakeside has accommodation comprising of entrance hall, sitting/dining room, kitchen, office and cloakroom on the ground floor. The first floor offers master bedroom with ensuite and two further bedrooms with a family bathroom, there is a further bedroom with ensuite on the second floor. To the rear is a decked area with a lawned south facing garden leading down to the lakeside.Situation  Situated in North Oxford, the location provides good access to all the day to day shopping facilities of Summertown including Marks & Spencer, bars, restaurants and a theatre with slightly further afield the comprehensive amenities of Oxford city centre. The location is within the Cherwell School Catchment area and the new Oxford Parkway station leads into London Marylebone and is a mere 1.4 miles away (short cycle ride). There is easy access to the Oxford ring road connecting to the A34, A40 and M40 to London. The central Oxford rail station has regular services to London Paddington.Viewing arrangements  Strictly by appointment with Penny & Sinclair. Prior to making an appointment to view, Penny & Sinclair strongly recommend that you discuss any particular points which are likely to affect your interest in the property with a member of Penny & Sinclair's staff who has seen the property, in order that you do not make a wasted journey.Directions  From the office of Penny and Sinclair in Summertown proceed north on Banbury Road and at the Cutteslowe roundabout continue straight over. Take a left turn into Five Mile Drive and continue past the cemetery on your right, take the next right turn into Linkside Avenue and left into Lakside and the property will be found shortly on the left hand side.Tenure and possession  The property is freehold and offers vacant possession upon completion.Fixtures and fittings  Certain items may be available by separate negotiation with Penny & Sinclair.Services  All mains services are connected.Local authority  Oxford City CouncilQueen StreetOxfordOX1 1ENTelephone: Important notice  Penny & Sinclair, their clients and any joint agent gives notice to anyone reading these particulars that:I) the particulars do not constitute part of an offer or contract; ii) all descriptions, dimensions, references to the condition and necessary permissions for use and occupation, and other details are given without responsibility and any intending purchasers should not rely on them as statement or representations of fact. Iii) the text, photographs and plans are guidelines only and are not necessarily comprehensive. Any reference to alterations to, or use of, any part of the property does not mean that all necessary planning, building regulations or other consents have been obtained and Penny & Sinclair have not tested any services, equipment or facilities. A buyer or lessee must satisfy themselves by inspection or otherwise. Iv) the descriptions provided therein represent the opinion of the author and whilst given in good faith should not be construed as statements of fact; v) nothing in the particulars shall be deemed a statement that the property is in good condition or otherwise, nor that any services or facilities are in good working order; vi) no person in the employment of Penny & Sinclair has any authority to make or give any representation or warranty whatsoever in relation to this property. Vii) all measurements are approximate.",
+            post_town: "Oxford",
+            details_url: "https://www.zoopla.co.uk/for-sale/details/47614099?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
+            short_description: "Currently arranged as 2 separate dwellings, this detached property offers  of accommodation with ample parking, a single and a double garage and south facing gardens overlooking a beautiful lake beyond.",
+            outcode: "OX2",
+            property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=47614099&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
+            image_645_430_url: "https://lid.zoocdn.com/645/430/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
+            county: "Oxfordshire",
+            price: "3695000",
+            listing_id: "47614099",
+            image_caption: "",
+            image_80_60_url: "https://lid.zoocdn.com/80/60/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
+            status: "for_sale",
+            agent_name: "Penny & Sinclair",
+            num_recepts: "4",
+            country: "England",
+            first_published_date: "2018-05-14 10:55:59",
+            displayable_address: "Lakeside, Oxford OX2",
+            price_modifier: "guide_price",
+            floor_plan: [
+                "https://lc.zoocdn.com/1089d1fcf0bf11dc2e8426d98df222d044891977.png"
+            ],
+            street_name: "Lakeside",
+            num_bathrooms: "9",
+            agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(380441).png",
+            price_change: [
+                {
+                    direction: "",
+                    date: "2018-05-14 10:51:00",
+                    percent: "0%",
+                    price: "3695000"
+                }
+            ],
+            agent_phone: "01865 680454",
+            image_354_255_url: "https://lid.zoocdn.com/354/255/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
+            image_url: "https://lid.zoocdn.com/354/255/485c8938d253133c5dfaf65139d2c1fcd45b5adf.jpg",
+            last_published_date: "2018-05-15 09:10:06"
+        },
+        {
+            country_code: "gb",
+            num_floors: "0",
+            image_150_113_url: "https://lid.zoocdn.com/150/113/0e06e131fe9c7d80ee8c028623c3768868df2b13.jpg",
+            listing_status: "sale",
+            num_bedrooms: "6",
+            location_is_approximate: 0,
+            image_50_38_url: "https://lid.zoocdn.com/50/38/0e06e131fe9c7d80ee8c028623c3768868df2b13.jpg",
+            latitude: 51.771225,
+            furnished_state: null,
+            agent_address: "256 Banbury Road, Summertown",
+            category: "Residential",
+            property_type: "Semi-detached house",
+            longitude: -1.267172,
+            floor_area: {
+                max_floor_area: {
+                    value: "4283",
+                    units: "sq_feet"
+                },
+                min_floor_area: {
+                    value: "4283",
+                    units: "sq_feet"
+                }
+            },
+            thumbnail_url: "https://lid.zoocdn.com/80/60/0e06e131fe9c7d80ee8c028623c3768868df2b13.jpg",
+            description: "Description  191 Woodstock Road is a handsome, bay fronted Edwardian semi-detached house built in 1902 to a design by H W Moore. With a floor area of 4,283 sq ft arranged mainly over three floors with a basement in addition, the property provides a substantial and beautifully presented home of elegant proportions typical of its era with spacious rooms and the feeling of light and space enhanced by high ceilings and large windows including stunning stained glass windows to the half landings. Situated on the corner of Frenchay Road, the house has a feeling of openness and is complemented by a west facing walled garden and a gated driveway providing ample off street parking.To the ground floor, arranged off the welcoming reception hall with staircase rising to the first floor, are the three principal reception rooms. The drawing room is a particularly attractive room with marble fireplace and large bay window to the front and the study/sitting room also with fireplace, has fitted cupboards and shelving to one wall. Arranged at the rear of the house enjoying an outlook over the garden, the dining room, kitchen and conservatory provide an excellent entertaining and family gathering space. Off the kitchen is the utility room with access to the rear garden. In addition, leading off the reception hall are the boot room, a ground floor bathroom and access to the basement, part of which is currently used as a gym. At first floor level are the master bedroom with fireplace and separate dressing room, and a spacious bathroom with roll top bath and large walk-in shower. Also on this floor are two further elegant and spacious rooms with fireplaces, currently arranged as a library and sitting room but also provide the potential for an impressive master bedroom suite. On the half landing as you approach the first floor, is a single bedroom with en-suite shower. On the second floor are four further bedrooms and a further bathroom arranged on the half landing.Approached from Frenchay Road, gates open to the gravelled driveway which continues to the front of the house and provides parking for several cars. The west facing rear garden is an attractive feature of the property providing a secluded setting with mature borders and trees and a terrace leading off the conservatory and kitchen.Situation  Situated in Central North Oxford providing good access to all the day to day shopping facilities of Walton St and Summertown including bars, restaurants and a Marks and Spencer food hall with slightly further afield the more comprehensive amenities of Oxford City Centre. The property offers easy access to a wide range of highly sought after schools in Oxford including The Dragon, St Edward's and Oxford High School. For commuting there are two stations, Oxford mainline station offering a regular service to London Paddington and Oxford Parkway station to London Marylebone just north of the ring road.Directions  From the offices of Penny & Sinclair proceed south down the Banbury Road turning right into Moreton Road. At the end of the road turn left into Woodstock Road. The property will be found on the right hand side on the corner of Frenchay Road.Viewing arrangements  Strictly by appointment with Penny & Sinclair. Prior to making an appointment to view, Penny & Sinclair strongly recommend that you discuss any particular points which are likely to affect your interest in the property with a member of staff who has seen the property, in order that you do not make a wasted journey.Services  All mains services are connected.Fixtures & fittings  Certain items may be available by separate negotiation with Penny & Sinclair.Tenure & possession  The property is freehold and offers vacant possession upon completion.Local authority  Oxford city Council, Town Hall, St Aldates, Oxford OX1 1BXimportant notice  Penny & Sinclair, their clients and any joint agent gives notice to anyone reading these particulars that:I) the particulars do not constitute part of an offer or contract; ii) all descriptions, dimensions, references to the condition and necessary permissions for use and occupation, and other details are given without responsibility and any intending purchasers should not rely on them as statement or representations of fact. Iii) the text, photographs and plans are guidelines only and are not necessarily comprehensive. Any reference to alterations to, or use of, any part of the property does not mean that all necessary planning, building regulations or other consents have been obtained and Penny & Sinclair have not tested any services, equipment or facilities. A buyer or lessee must satisfy themselves by inspection or otherwise. Iv) the descriptions provided therein represent the opinion of the author and whilst given in good faith should not be construed as statements of fact; v) nothing in the particulars shall be deemed a statement that the property is in good condition or otherwise, nor that any services or facilities are in good working order; vi) no person in the employment of Penny & Sinclair has any authority to make or give any representation or warranty whatsoever in relation to this property. Vii) all measurements are approximate.",
+            post_town: "Oxford",
+            details_url: "https://www.zoopla.co.uk/for-sale/details/45932443?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
+            short_description: "A handsome bay fronted Edwardian semi-detached house sitting on a corner plot, beautifully presented throughout with walled west facing garden.",
+            outcode: "OX2",
+            property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=45932443&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
+            image_645_430_url: "https://lid.zoocdn.com/645/430/0e06e131fe9c7d80ee8c028623c3768868df2b13.jpg",
+            county: "Oxfordshire",
+            price: "2995000",
+            listing_id: "45932443",
+            image_caption: "",
+            image_80_60_url: "https://lid.zoocdn.com/80/60/0e06e131fe9c7d80ee8c028623c3768868df2b13.jpg",
+            status: "for_sale",
+            agent_name: "Penny & Sinclair",
+            num_recepts: "5",
+            country: "England",
+            first_published_date: "2017-05-17 03:46:41",
+            displayable_address: "The Towpath, Woodstock Road, Oxford OX2",
+            price_modifier: "guide_price",
+            floor_plan: [
+                "https://lc.zoocdn.com/791a9935c3c9f6782b39ef8adcee66c0596821c7.png"
+            ],
+            street_name: "Woodstock Road",
+            num_bathrooms: "4",
+            agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(380441).png",
+            price_change: [
+                {
+                    direction: "",
+                    date: "2017-05-16 18:01:33",
+                    percent: "0%",
+                    price: "3250000"
+                },
+                {
+                    direction: "down",
+                    date: "2018-04-16 11:05:30",
+                    percent: "-7.8%",
+                    price: "2995000"
+                }
+            ],
+            agent_phone: "01865 680454",
+            image_354_255_url: "https://lid.zoocdn.com/354/255/0e06e131fe9c7d80ee8c028623c3768868df2b13.jpg",
+            image_url: "https://lid.zoocdn.com/354/255/0e06e131fe9c7d80ee8c028623c3768868df2b13.jpg",
+            last_published_date: "2018-05-15 09:10:00",
+            price_change_summary: {
+                direction: "down",
+                percent: "-7.8%",
+                last_updated_date: "2018-04-16 11:05:30"
+            }
+        },
+        {
+            country_code: "gb",
+            num_floors: "0",
+            image_150_113_url: "https://lid.zoocdn.com/150/113/6dc99d17cc2d8b37a6aa01806fbf86b4af8c558d.jpg",
+            listing_status: "sale",
+            num_bedrooms: "7",
+            location_is_approximate: 0,
+            image_50_38_url: "https://lid.zoocdn.com/50/38/6dc99d17cc2d8b37a6aa01806fbf86b4af8c558d.jpg",
+            latitude: 51.772373,
+            furnished_state: null,
+            agent_address: "256 Banbury Road, Summertown",
+            category: "Residential",
+            property_type: "Detached house",
+            longitude: -1.260834,
+            floor_area: {
+                max_floor_area: {
+                    value: "4026",
+                    units: "sq_feet"
+                },
+                min_floor_area: {
+                    value: "4026",
+                    units: "sq_feet"
+                }
+            },
+            thumbnail_url: "https://lid.zoocdn.com/80/60/6dc99d17cc2d8b37a6aa01806fbf86b4af8c558d.jpg",
+            description: "Description  A substantial family house built in 1925 to a design by Thomas Rayson with more recent additions. Situated within this sought after side road, the property occupies a large corner plot of 0.3 acres complimented by a mature enclosed south facing garden and a driveway to the front providing ample parking space. The accommodation is arranged over three floors set out with a cloakroom, two receptions rooms, drawing room, kitchen/dining room, study/annexe with a shower room and a utility room on the ground floor. On the first floor are five bedrooms, two bathrooms and a sitting room with a further two bedrooms and a bathroom on the second floor above.Situation  Situated in Central North Oxford providing good access to all the day to day shopping facilities of Summertown including Marks & Spencers, bars, restaurants and slightly further afield the comprehensive amenities of Oxford City centre. In addition the property is situated close to a number of excellent schools including The Dragon, Magdalen College, Oxford High School for Girls, St. Edward's, Cherwell School and Wychwood.The Woodstock and Banbury roads join directly to the Oxford ring road connecting to the A40 and M40 to London. The Oxford rail station has regular services directly to London Paddington.Directions  From the offices of Penny & Sinclair continue south along the Banbury Road, through the traffic light at Marston Ferry Road, taking the second turning on the left into Belbroughton Road and the property will be found on the right hand side on the far corner with Northmoor Road.Viewing arrangements  Strictly by appointment with Penny & Sinclair. Prior to making an appointment to view, Penny & Sinclair strongly recommend that you discuss any particular points which are likely to affect your interest in the property with a member of Penny & Sinclair's staff who has seen the property, in order that you do not make a wasted journey.Fixtures & fittings  Certain items may be available by separate negotiation with Penny & Sinclair.Services  All mains services are connected.Tenure & possession  The property is freehold and offers vacant possession upon completion.Council tax  Council Tax Band 'H' amounting to £3622.00 for year 2018/19.Tel: local authority  Oxford City CouncilTown HallSt AldatesOxfordOX1 1BXimportant message  Penny & Sinclair, their clients and any joint agent gives notice to anyone reading these particulars that:I) the particulars do not constitute part of an offer or contract; ii) all descriptions, dimensions, references to the condition and necessary permissions for use and occupation, and other details are given without responsibility and any intending purchasers should not rely on them as statement or representations of fact. Iii) the text, photographs and plans are guidelines only and are not necessarily comprehensive. Any reference to alterations to, or use of, any part of the property does not mean that all necessary planning, building regulations or other consents have been obtained and Penny & Sinclair have not tested any services, equipment or facilities. A buyer or lessee must satisfy themselves by inspection or otherwise. Iv) the descriptions provided therein represent the opinion of the author and whilst given in good faith should not be construed as statements of fact; v) nothing in the particulars shall be deemed a statement that the property is in good condition or otherwise, nor that any services or facilities are in good working order; vi) no person in the employment of Penny & Sinclair has any authority to make or give any representation or warranty whatsoever in relation to this property. Vii) all measurements are approximate.",
+            post_town: "Oxford",
+            details_url: "https://www.zoopla.co.uk/for-sale/details/46526064?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
+            short_description: "A substantial family house built in 1925 to a design by Thomas Rayson with more recent additions benefitting from a south facing garden and double entry driveway.",
+            outcode: "OX2",
+            property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=46526064&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
+            image_645_430_url: "https://lid.zoocdn.com/645/430/6dc99d17cc2d8b37a6aa01806fbf86b4af8c558d.jpg",
+            county: "Oxfordshire",
+            price: "2895000",
+            listing_id: "46526064",
+            image_caption: "",
+            image_80_60_url: "https://lid.zoocdn.com/80/60/6dc99d17cc2d8b37a6aa01806fbf86b4af8c558d.jpg",
+            status: "for_sale",
+            agent_name: "Penny & Sinclair",
+            num_recepts: "5",
+            country: "England",
+            first_published_date: "2018-02-08 10:00:25",
+            displayable_address: "Belbroughton Road, Oxford OX2",
+            price_modifier: "guide_price",
+            floor_plan: [
+                "https://lc.zoocdn.com/1b3b20bd43645eef63f2c64612c1fc03c74f2a97.png"
+            ],
+            street_name: "Belbroughton Road",
+            num_bathrooms: "4",
+            agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(380441).png",
+            price_change: [
+                {
+                    direction: "",
+                    date: "2018-02-08 09:58:36",
+                    percent: "0%",
+                    price: "2895000"
+                }
+            ],
+            agent_phone: "01865 680454",
+            image_354_255_url: "https://lid.zoocdn.com/354/255/6dc99d17cc2d8b37a6aa01806fbf86b4af8c558d.jpg",
+            image_url: "https://lid.zoocdn.com/354/255/6dc99d17cc2d8b37a6aa01806fbf86b4af8c558d.jpg",
+            last_published_date: "2018-05-15 09:10:03"
+        },
+        {
+            country_code: "gb",
+            num_floors: "0",
+            image_150_113_url: "https://lid.zoocdn.com/150/113/d23e28cf074d77c62ec7151dab09cffa8dbaf210.jpg",
+            listing_status: "sale",
+            num_bedrooms: "6",
+            location_is_approximate: 0,
+            image_50_38_url: "https://lid.zoocdn.com/50/38/d23e28cf074d77c62ec7151dab09cffa8dbaf210.jpg",
+            latitude: 51.74293,
+            furnished_state: null,
+            agent_address: "High Street, Goring, Reading",
+            category: "Residential",
+            property_type: "Detached house",
+            longitude: -1.313658,
+            floor_area: {
+                max_floor_area: {
+                    value: "4460",
+                    units: "sq_feet"
+                }
+            },
 
+            thumbnail_url: "https://lid.zoocdn.com/80/60/d23e28cf074d77c62ec7151dab09cffa8dbaf210.jpg",
+            description: "Nestled in a private corner of exclusive Hid’s Copse Road on the outskirts of Oxford, Water Combe is a brand new property constructed to an extraordinarily high standard with an astonishing attention to detail. The property is full of light and space with most rooms having a double aspect and large windows designed to take advantage of the far reaching and garden views. Bespoke features include a luxurious designer kitchen/breakfast room, generous reception rooms, spacious hallways and landings, an internal green oak frame which adds stunning character, wide oak floors, large bedrooms and fabulous bathrooms with Bateau bath tubs.Set within 1.2 acres, the landscaping has been designed around the Fairy Glen at the bottom of the garden and the Fairy theme continues throughout the house and garden. This enchanting home has had no expense spared to create a unique home for the discerning buyer. Awaiting EPC Rating.Local informationCumnor Hill is a sought after residential area just 1.5 miles from the centre of Oxford. It is well served by communications with access to the A34 and Oxford ring road, connecting to the M4 and M40 motorways, with the regional centres of Newbury and Swindon also within easy reach.Communications by rail are also excellent with fast trains from either Oxford or Didcot to London Paddington taking about 50 and 45 minutes respectively. From the coach station at Gloucester Green there are regular services to London Heathrow and Gatwick airports.Hid’s Copse Road is an attractive private no-through road known for its wooded rural setting with detached houses in large gardens. Cumnor Hill has bus pick-ups to all the major independent schools in Central North Oxford as well as Abingdon, Cothill and Cokethorpe.AccommodationSolid oak front door with cast bronze oak leaf handlesMagnificent double height reception hall with oak floor and views through to the marble terrace and garden. Sitting room with vaulted ceiling and exposed brick wall, wood burning stove, double oak framed doors leading to terrace. Kitchen/breakfast room fitted with superb range of bespoke Griggs & Mackay handmade painted and oak lined wall and floor cabinets, Brazilian leathered granite work surfaces, central island breakfast bar with pop up extractor, Gaggenau gas ovens and hob, American style Fisher & Paykel fridge/freezer, double doors to terrace. Dining room and family room, oak floor, suspended wood burning stove, bi-fold doors to terrace. Study with double doors to garden. Ground floor cloakroom and wet room. Gymnasium/bedroom 6 with double doors to garden. Laundry with plumbing for washing machine, tumble dryer. Plant room. From the reception hall a hand carved oak staircase turns and rises gracefully to the first floor with a large window overlooking the garden. From the reception hall a hand carved oak staircase turns and rises gracefully to the first floor with a large window overlooking the garden.Fairy bridge with extraordinary balustrade created by a master blacksmith of entwined vines and flowers, magically crosses the hall below to the master bedroom. Solid oak doors with a safe lock swing open to give access to the grand master bedroom which has a vaulted ceiling and exposed green oak timbers, low windows providing wonderful garden views from the comfort of the bed, dressing area leading to the En-suite bathroom. This sublime space has a marble floor, nickle Bateau bath tub, double shower with rainwater head, two sets of glass doors leading to a balcony with glass balustrade and far reaching Westerly views. Four further bedrooms, three with luxurious designer en-suite bath or shower rooms. Large attic space with natural light, ideal as a playroom or additional bedrooms, if required.Gardens and groundsSliding timber gates give access to the large gravel parking area and round to the double garage. An external staircase leads to a useful home office or workshop with power and light. The delightful gardens are full of mature plants and a colourful selection of Rhododendrons and Azaleas and there is a large area of lawn.The large marble terrace is beautifully laid and is ideal for entertaining. There is an outdoor kitchen with hot and cold running water and stone sink and a built-in barbecue and pizza oven. Intricate pathways lead amongst bushes and tumbling climbing plants and wind down towards Oak and Yew trees that have been designated as Ancient Woodland.There is a mysterious throne and 8 stone seats around a circle cut into the bank, a fine place for midnight excursions. ‘The Fairies Wish’, a beautiful wire sculpture 25ft atop a stricken Oak tree, has been commissioned from Derek Kingzett a renowned contemporary Artist and Wire Sculptor. Five spring fed ponds lead down to the Fairy glen at the bottom of the garden, who knows what else is there…specificationUnderfloor heating throughout the ground floor, designer radiators to first and second floorWide engineered stained oak floors to reception hall, sitting room and dining/family roomPillowed limestone floors to kitchen/breakfast room, cloakroom/wet roomGriggs & Mackay hand built kitchen with oak lined cupboardsGaggenau ovens, microwave, gas hob and dishwasher, pop up extractor fanFisher & Paykel fridge and freezerBrazilian leathered granite worksurfaces and breakfast barExposed green oak internal timber framePlant room with data cabinet, dual Cat 5 connectivity, satellite and TV to every habitable room, Smart phone controlled heating and hot waterDual perpetual hot water throughout the house for instant hot waterAll mains services connected, gas fired central heating.Local authority and servicesAll mains connected. Vale of White Horse District Council.ConveyancingThrough our in house Conveyancing team, we can ensure ease and efficiency for a competitive, no-sale, no-fee quote. Ask us for a quote today.DisclaimerThese particulars are a general guide only. They do not form part of any contract. Services, systems and appliances have not been tested.Buyers informationIn accordance with hmrc Anti Money Laundering Regulations a buyer(s) must attend our office to provide Photo Identification and Proof of Address (valid in last 3 months) once a sale is agreed.",
+            post_town: "Oxford",
+            details_url: "https://www.zoopla.co.uk/for-sale/details/47738035?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
+            short_description: "Water Combe is a brand new property constructed to an extraordinarily high standard. Bespoke features include a designer kitchen/breakfast room, generous reception rooms, an internal green oak frame, large bedrooms and bathrooms with Bateau bath tubs. Set within 1.2 acres. Awaiting EPC Rating",
+            outcode: "OX2",
+            property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=47738035&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
+            image_645_430_url: "https://lid.zoocdn.com/645/430/d23e28cf074d77c62ec7151dab09cffa8dbaf210.jpg",
+            new_home: "true",
+            county: "Oxfordshire",
+            price: "2850000",
+            listing_id: "47738035",
+            image_caption: "Main (Main)",
+            image_80_60_url: "https://lid.zoocdn.com/80/60/d23e28cf074d77c62ec7151dab09cffa8dbaf210.jpg",
+            status: "for_sale",
+            agent_name: "Davis Tate - Goring on Thames",
+            num_recepts: "4",
+            country: "England",
+            first_published_date: "2018-05-23 20:51:54",
+            displayable_address: "Hid's Copse Road, Cumnor Hill, Oxford OX2",
+            price_modifier: "guide_price",
+            floor_plan: [
+                "https://lc.zoocdn.com/750c7e891753f866617a71f78851da69bc4af339.jpg"
+            ],
+            street_name: "18 Hid's Copse Road Cumnor Hill",
+            num_bathrooms: "5",
+            agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(155442).png",
+            price_change: [
+                {
+                    direction: "",
+                    date: "2018-05-23 17:37:23",
+                    percent: "0%",
+                    price: "3250000"
+                },
+                {
+                    direction: "down",
+                    date: "2018-06-26 17:37:32",
+                    percent: "-12.3%",
+                    price: "2850000"
+                }
+            ],
+            agent_phone: "01491 877118",
+            image_354_255_url: "https://lid.zoocdn.com/354/255/d23e28cf074d77c62ec7151dab09cffa8dbaf210.jpg",
+            image_url: "https://lid.zoocdn.com/354/255/d23e28cf074d77c62ec7151dab09cffa8dbaf210.jpg",
+            last_published_date: "2018-07-16 20:39:38",
+            price_change_summary: {
+                direction: "down",
+                percent: "-12.3%",
+                last_updated_date: "2018-06-26 17:37:32"
+            }
+        },
+        {
+            country_code: "gb",
+            num_floors: "0",
+            image_150_113_url: "https://lid.zoocdn.com/150/113/743162045bb275837cafac2dae90f6054c71c660.jpg",
+            listing_status: "sale",
+            num_bedrooms: "5",
+            location_is_approximate: 0,
+            image_50_38_url: "https://lid.zoocdn.com/50/38/743162045bb275837cafac2dae90f6054c71c660.jpg",
+            latitude: 51.78155,
+            furnished_state: null,
+            agent_address: "205a Banbury Road, Summertown, Oxford",
+            category: "Residential",
+            property_type: "Detached house",
+            longitude: -1.270803,
+            floor_area: {
+                max_floor_area: {
+                    value: "3000",
+                    units: "sq_feet"
+                }
+            },
+            thumbnail_url: "https://lid.zoocdn.com/80/60/743162045bb275837cafac2dae90f6054c71c660.jpg",
+            description: "Stunning detached family home in a very special setting along a private lane close to Summertown.This detached house was originally constructed in the late 1920's and in recent years has undergone a comprehensive programme of extension and refurbishment to transform it into a modern family home with unique character. The property has been elegantly designed throughout whilst maximising space and light simultaneously. Arranged over two floors with a great deal of living space and a homely and tastefully refurbished kitchen/family room. There are five good sized bedrooms including a ground floor suite which would be ideal for relatives or teenage children.The house has a light and airy feel throughout and still retains much of its original character. Situated along a private lane adjacent to Lynams school the house feels as though it is in the country yet is within easy walking distance of central Summertown with its vibrant amenities. Set back from the lane with electrically operated wooden gates with a long driveway and turning area providing ample car-parking, the gardens extend to all sides of the property and measure circa 0.26 acres with lawns, shrubs trees and borders. Beyond the kitchen is a private and enclosed terrace with borders and has a south/westerly aspect. There is also a large wooden storage shed with undercover bicycle store.Please contact the office for further information or to arrange a viewing.",
+            post_town: "Oxford",
+            details_url: "https://www.zoopla.co.uk/for-sale/details/48411791?utm_source=v1:_azLEzzdGUTPqwGzcb1-ri2rfQ852q6e&utm_medium=api",
+            short_description: "<p class=\"top\">Stunning detached family home in a very special setting along a private lane close to Summertown.  This detached house was originally constructed in the late 1920's and in recent years has undergone a comprehensive programme of extension and refurbishment to transform it into a modern family home with unique character. The property has been elegantly designed throughout whilst maximising space and light simultaneously. Arranged over two floors with a great deal of living space and a homely and tastefully refurbished kitchen/family room. There are five good sized bedrooms including a ground floor suite which would be ideal for relatives or teenage children.  The house has a light and airy feel throughout and still retains much of its original character. Situated along a private lane adjacent to Lynams school the house feels as though it is in the country yet is within easy walking distance of central Summertown with its vibrant amenities. Set back from the lane with electrically operated wooden gates with a long driveway and turning area providing ample car-parking, the gardens extend to all sides of the property and measure circa 0.26 acres with lawns, shrubs trees and borders. Beyond the kitchen is a private and enclosed terrace with borders and has a south/westerly aspect. There is also a large wooden storage shed with undercover bicycle store.  Please contact the office for further information or to arrange a viewing.</p>",
+            outcode: "OX2",
+            property_report_url: "https://www.zoopla.co.uk/area-report/?listing_id=48411791&z_cmp=property%20report&z_con=get%20a%20report&z_med=propinfo%20link&z_src=ios-for-sale",
+            image_645_430_url: "https://lid.zoocdn.com/645/430/743162045bb275837cafac2dae90f6054c71c660.jpg",
+            county: "Oxfordshire",
+            price: "2500000",
+            listing_id: "48411791",
+            image_caption: "Front View",
+            image_80_60_url: "https://lid.zoocdn.com/80/60/743162045bb275837cafac2dae90f6054c71c660.jpg",
+            status: "for_sale",
+            agent_name: "Scott Fraser - Summertown",
+            num_recepts: "3",
+            country: "England",
+            first_published_date: "2018-07-17 16:16:59",
+            displayable_address: "Richards Lane, Summertown, Oxford OX2",
+            floor_plan: [
+                "https://lc.zoocdn.com/71fda7dbaa3eb003be6b3bfa24fd416ec7d53c55.jpg"
+            ],
+            street_name: "Richards Lane",
+            num_bathrooms: "3",
+            agent_logo: "https://st.zoocdn.com/zoopla_static_agent_logo_(562535).png",
+            price_change: [
+                {
+                    direction: "",
+                    date: "2018-07-17 16:15:10",
+                    percent: "0%",
+                    price: "2500000"
+                }
+            ],
+            agent_phone: "01865 680776",
+            image_354_255_url: "https://lid.zoocdn.com/354/255/743162045bb275837cafac2dae90f6054c71c660.jpg",
+            image_url: "https://lid.zoocdn.com/354/255/743162045bb275837cafac2dae90f6054c71c660.jpg",
+            last_published_date: "2018-07-23 08:45:06"
+        }
+//     ],
+//     street: "",
+//     town: "Oxford",
+//     latitude: 51.7460495,
+//     county: "Oxfordshire",
+//     bounding_box: {
+//         longitude_min: "-1.361637",
+//         latitude_min: "51.6709",
+//         longitude_max: "-1.058679",
+//         latitude_max: "51.821199"
+//     },
+//     postcode: ""
+// }
+    ];
 
-export default listings;
-
+    export default listings;
