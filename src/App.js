@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Filter from "./components/Filter";
 import Listings from "./components/Listings";
 import listings from './dataListings';
+import Footer from './components/Footer';
 
 class App extends Component {
   state = {
@@ -18,6 +19,7 @@ class App extends Component {
           <Filter />
           <Listings listings={this.state.listings}/>
         </section>
+        <Footer />
       </div>
     );
   }

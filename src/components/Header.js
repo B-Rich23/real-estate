@@ -6,7 +6,7 @@ class Header extends Component {
     render() {
         return (
             <header>
-                <div className="logo">Logo</div>
+                <div className="logo"><i className="fab fa-r-project"></i> Realty Pros UK</div>
                 <nav>
                     <a href="#">Create Ads</a>
                     <a href="#">About Us</a>

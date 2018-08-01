@@ -32,12 +32,12 @@ class Listings extends Component {
                             console.log(listing.price)
                             return                         <div className="listing" key={listing.listing_id}>
                             <div className="listing-img">
-                                <img src={listing.image_354_255_url} alt="missing"/>
+                            <img className="listing-img" src={listing.image_354_255_url} alt="missing"/>
                                 <span className="address">{listing.agent_address}</span>
                                 <div className="details">
-                                    <div className="user-img">
+                                    {/* <div className="user-img">
 
-                                    </div>
+                                    </div> */}
                                     {/* <div className="user-details">
                                         <span className="user-name">Nina Smith</span>
                                         <span className="post-date">07-24-18</span>
