@@ -233,6 +233,31 @@ header {
     margin-top: 20px;
     margin-left: 45%; }
 
+#splash {
+  background: url(woodsy-uk-home.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #splash .search-btn {
+    padding: 1rem;
+    background: #686de0;
+    color: #fff;
+    font-size: 1rem;
+    opacity: 0.8;
+    border: 2px solid #fff;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    outline: 0;
+    font-weight: 700; }
+    #splash .search-btn:hover {
+      background: #7ed6df;
+      color: #686de0; }
+
 * body, html {
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box; }
