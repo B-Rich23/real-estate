@@ -8,21 +8,25 @@ header {
     // width: 98%;
     z-index: 10;
 
-    .logo {
-        float: left;
-        font-size: 1.5rem;
-
-        i {
-            font-size: 2rem;
+    .link-logo {
+        .logo {
+            float: left;
+            font-size: 1.5rem;
+            color: #fff;
+            i {
+                font-size: 2rem;
+            }
         }
+
     }
 
     nav {
         float: right;
+
         a {
             color: #fff;
             text-decoration: none;
-            padding: 0.7rem 1rem;
+            padding: 0.7rem 0.7rem;
             text-transform: capitalize;
             font-weight: 300;
 
@@ -30,9 +34,14 @@ header {
                 color: $lightgray;
 
             }
+            &.buy-home {
+                margin-right: -9px;
+            }
+
             &.register-btn {
                 background: $teal;
                 padding: 0.7rem 0.9rem;
+                margin-left: 1rem;
                 text-align: center;
                 border-radius: 0.2rem;
                 transition: all 0.2s ease-in-out;

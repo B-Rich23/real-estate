@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import {
+    BrowserRouter as Router, Route, Switch, Link,
+  } from 'react-router-dom';
+
 
 
 class Header extends Component {
@@ -6,9 +10,13 @@ class Header extends Component {
     render() {
         return (
             <header>
-                <div className="logo"><i className="fab fa-r-project"></i> Realty Pros UK</div>
+                <Link className="link-logo" to="/">
+                    <div className="logo"><i className="fab fa-r-project"></i> Realty Pros UK</div>
+                </Link>
                 <nav>
-                    <a href="#">Home</a>
+                <Link to="/search">
+                    <a href="#" className="buy-home">Buy Home</a>
+                </Link>
                     <a href="#">About Us</a>
                     <a href="#">Log In</a>
                     <a href="#"className="register-btn">Register</a>

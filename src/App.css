@@ -7,24 +7,28 @@ header {
   position: sticky;
   top: 0;
   z-index: 10; }
-  header .logo {
+  header .link-logo .logo {
     float: left;
-    font-size: 1.5rem; }
-    header .logo i {
+    font-size: 1.5rem;
+    color: #fff; }
+    header .link-logo .logo i {
       font-size: 2rem; }
   header nav {
     float: right; }
     header nav a {
       color: #fff;
       text-decoration: none;
-      padding: 0.7rem 1rem;
+      padding: 0.7rem 0.7rem;
       text-transform: capitalize;
       font-weight: 300; }
       header nav a:hover {
         color: #d1cbcd; }
+      header nav a.buy-home {
+        margin-right: -9px; }
       header nav a.register-btn {
         background: #7ed6df;
         padding: 0.7rem 0.9rem;
+        margin-left: 1rem;
         text-align: center;
         border-radius: 0.2rem;
         transition: all 0.2s ease-in-out; }
@@ -226,7 +230,7 @@ header {
 
 #footer {
   background: #30336b;
-  height: 200px;
+  height: 40vh;
   display: inline-block;
   width: 100%; }
   #footer .zoopla {
@@ -239,10 +243,17 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 700px;
+  min-height: 120vh;
   display: flex;
-  justify-content: center;
-  align-items: center; }
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column; }
+  #splash h2 {
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px #969696;
+    margin-top: 100px;
+    text-transform: capitalize; }
   #splash .search-btn {
     padding: 1rem;
     background: #686de0;

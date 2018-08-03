@@ -1,13 +1,11 @@
 #footer {
     background: $darkblue;
-    height: 200px;
+    height: 40vh;
     display: inline-block;
     width: 100%;
 
     .zoopla {
-        // display: inline-block;
-        // margin: 0 auto;
         margin-top: 20px;
-        margin-left: 45%;
+        margin-left: 45%;        // height: 30vh;
     }
 }

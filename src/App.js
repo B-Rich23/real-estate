@@ -3,12 +3,9 @@ import {
   BrowserRouter as Router, Route, Switch, Link,
 } from 'react-router-dom';
 import './App.css';
-import Header from "./components/Header";
-import Filter from "./components/Filter";
-import Listings from "./components/Listings";
 import listings from './dataListings';
-import Footer from './components/Footer';
 import Home from './components/Home';
+import Search from './components/Search';
 
 class App extends Component {
   state = {
@@ -21,15 +18,8 @@ class App extends Component {
         <div className="App">
           <Switch>
           <Route exact path="/" component={Home} />
-          {/* <Route path="/:id" component={MovieDetails} /> */}
+          <Route path="/search" component={Search} />
           </Switch>
-
-          {/* <Header />
-          <section id="content-area">
-            <Filter />
-            <Listings listings={this.state.listings}/>
-          </section>
-          <Footer /> */}
         </div>
       </Router>
     );
