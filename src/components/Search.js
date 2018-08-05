@@ -3,25 +3,18 @@ import Header from "./Header";
 import Filter from "./Filter";
 import Listings from "./Listings";
 import Footer from './Footer';
-import listings from '../dataListings';
 
-class Search extends Component {
-  state = {
-    listings: listings,
-  }
-
-  render() {
-    return (
+const Search = (props) => (
         <div className="Search">
           <Header />
           <section id="content-area">
             <Filter />
-            <Listings listings={this.state.listings}/>
+            <Listings listings={props.listings} open={props.modalOpen}/>
           </section>
           <Footer />
         </div>
     );
-  }
-}
+
+
 
 export default Search;

@@ -29,7 +29,9 @@ class App extends Component {
         <div className="App">
           <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/search" component={Search} />
+          <Route path="/search" render={(props) => <Search {...props}
+           listings={this.state.listings} modal={this.state.open}
+            modalOpen={this.onOpenModal} modalClose={this.onCloseModal}/>} />
           </Switch>
         </div>
       </Router>

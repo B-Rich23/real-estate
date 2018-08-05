@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 class Listings extends Component {
 
     render() {
-        const { listings } = this.props;
+        const { listings, open } = this.props;
 
         return (
             <section id="listings">
@@ -30,7 +30,7 @@ class Listings extends Component {
 
                         {listings.map(listing => {
                             console.log(listing.price)
-                            return                         <div className="listing" key={listing.listing_id}>
+                            return                         <div className="listing" key={listing.listing_id} onClick={() => open()}>
                             <div className="listing-img">
                             <img className="listing-img" src={listing.image_645_430_url} alt="missing"/>
                                 <span className="address">{listing.agent_address}</span>
