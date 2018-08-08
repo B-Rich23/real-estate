@@ -9,7 +9,7 @@ const Search = (props) => (
           <Header />
           <section id="content-area">
             <Filter />
-            <Listings listings={props.listings} open={props.modalOpen}/>
+            <Listings listings={props.listings} open={props.modalOpen} closeModal={props.modalClose} modal={props.modal}/>
           </section>
           <Footer />
         </div>

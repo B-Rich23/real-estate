@@ -16,10 +16,13 @@ class App extends Component {
 
   onOpenModal = () => {
     this.setState({ open: true });
+
   };
 
   onCloseModal = () => {
+
     this.setState({ open: false });
+    console.log(this.state.open);
   };
 
 
@@ -31,7 +34,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/search" render={(props) => <Search {...props}
            listings={this.state.listings} modal={this.state.open}
-            modalOpen={this.onOpenModal} modalClose={this.onCloseModal}/>} />
+            modalOpen={this.onOpenModal} modalClose={ this.onCloseModal}/>} />
           </Switch>
         </div>
       </Router>

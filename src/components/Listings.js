@@ -8,8 +8,8 @@ import  Modal  from 'react-responsive-modal';
 class Listings extends Component {
 
     render() {
-        const { listings, open, modal } = this.props;
-        const lorem = (
+        const { listings, open, closeModal, modal } = this.props;
+        let lorem = (
             <p>
               Mauris ac arcu sit amet dui interdum bibendum a sed diam. Praesent
               rhoncus congue ipsum elementum lobortis. Ut ligula purus, ultrices id
@@ -46,8 +46,11 @@ class Listings extends Component {
                     <section className="listings-results">
 
                         {listings.map(listing => {
-                            console.log(listing.price)
-                            return                         <div className="listing" key={listing.listing_id} onClick={() => open()}>
+                            // console.log(listing.price)
+                            lorem =  (<img src={listing.image_645_430_url}></img>)
+
+                            return <div className="listing" key={listing.listing_id} onClick={() => open(listing)}>
+
                             <div className="listing-img">
                             <img className="listing-img" src={listing.image_645_430_url} alt="missing"/>
                                 <span className="address">{listing.agent_address}</span>
@@ -71,22 +74,28 @@ class Listings extends Component {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="bottom-info">
                                 <span className="price">£{listing.price} </span>
                                 <span className="location"><i className="fas fa-map-marker-alt"></i> {listing.post_town}, {listing.country}</span>
                             </div>
+
                         </div>
 
                         })}
-                        <Modal open={modal} onClose={this.onCloseModal}>
-          <h2>Big modal</h2>
-          {lorem}
-          {lorem}
-          {lorem}
-          {lorem}
-          {lorem}
-          {lorem}
-        </Modal>
+
+                         <div>
+                            <Modal open={modal} onClose={() => closeModal()}>
+                                <h2>Big modal</h2>
+                                {lorem}
+                                {lorem}
+                                {lorem}
+                                {lorem}
+                                {lorem}
+                                {lorem}
+                            </Modal>
+                        </div>
+
                     </section>
                 </div>
                 <section id="pagination">
